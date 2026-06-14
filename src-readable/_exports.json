@@ -1,0 +1,1810 @@
+{
+  "TournamentPostScoreAction": {
+    "moduleId": 47,
+    "file": "47_TournamentPostScoreAction.js"
+  },
+  "SpritesPool": {
+    "moduleId": 158,
+    "file": "158_SpritesPool.js"
+  },
+  "DestroyFieldAction": {
+    "moduleId": 196,
+    "file": "196_DestroyFieldAction.js"
+  },
+  "PreloadAssetsAction": {
+    "moduleId": 952,
+    "file": "952_PreloadAssetsAction.js"
+  },
+  "ShareTournamentFormDebug": {
+    "moduleId": 2719,
+    "file": "2719_ShareTournamentFormDebug.js"
+  },
+  "LeaderboardScreen": {
+    "moduleId": 2906,
+    "file": "2906_LeaderboardScreen.js"
+  },
+  "SocialFlowAction": {
+    "moduleId": 3057,
+    "file": "3057_SocialFlowAction.js"
+  },
+  "BotLogic": {
+    "moduleId": 3565,
+    "file": "3565_BotLogic.js"
+  },
+  "CookieModelYandex": {
+    "moduleId": 5183,
+    "file": "5183_CookieModelYandex.js"
+  },
+  "LazyServiceIdentifer": {
+    "moduleId": 86700,
+    "file": "86700_MetadataReader.js"
+  },
+  "ExclamationMarkNotificator": {
+    "moduleId": 5777,
+    "file": "5777_ExclamationMarkNotificator.js"
+  },
+  "SubmitContextScoreAction": {
+    "moduleId": 6248,
+    "file": "6248_SubmitContextScoreAction.js"
+  },
+  "SIDES": {
+    "moduleId": 6538,
+    "file": "6538_SIDES.js"
+  },
+  "SVG_SIZE": {
+    "moduleId": 6538,
+    "file": "6538_SIDES.js"
+  },
+  "TYPES": {
+    "moduleId": 6538,
+    "file": "6538_SIDES.js"
+  },
+  "MIME_TYPES": {
+    "moduleId": 6538,
+    "file": "6538_SIDES.js"
+  },
+  "EMPTY": {
+    "moduleId": 6538,
+    "file": "6538_SIDES.js"
+  },
+  "WHITE": {
+    "moduleId": 6538,
+    "file": "6538_SIDES.js"
+  },
+  "BATCHABLE_SIZE": {
+    "moduleId": 6538,
+    "file": "6538_SIDES.js"
+  },
+  "Request": {
+    "moduleId": 6748,
+    "file": "6748_Request.js"
+  },
+  "ScreenContainer": {
+    "moduleId": 6846,
+    "file": "6846_ScreenContainer.js"
+  },
+  "NON_CUSTOM_TAG_KEYS": {
+    "moduleId": 6867,
+    "file": "6867_NON_CUSTOM_TAG_KEYS.js"
+  },
+  "POST_CONSTRUCT": {
+    "moduleId": 6867,
+    "file": "6867_NON_CUSTOM_TAG_KEYS.js"
+  },
+  "DESIGN_PARAM_TYPES": {
+    "moduleId": 6867,
+    "file": "6867_NON_CUSTOM_TAG_KEYS.js"
+  },
+  "PARAM_TYPES": {
+    "moduleId": 6867,
+    "file": "6867_NON_CUSTOM_TAG_KEYS.js"
+  },
+  "TAGGED_PROP": {
+    "moduleId": 6867,
+    "file": "6867_NON_CUSTOM_TAG_KEYS.js"
+  },
+  "TAGGED": {
+    "moduleId": 6867,
+    "file": "6867_NON_CUSTOM_TAG_KEYS.js"
+  },
+  "MULTI_INJECT_TAG": {
+    "moduleId": 6867,
+    "file": "6867_NON_CUSTOM_TAG_KEYS.js"
+  },
+  "INJECT_TAG": {
+    "moduleId": 6867,
+    "file": "6867_NON_CUSTOM_TAG_KEYS.js"
+  },
+  "OPTIONAL_TAG": {
+    "moduleId": 6867,
+    "file": "6867_NON_CUSTOM_TAG_KEYS.js"
+  },
+  "UNMANAGED_TAG": {
+    "moduleId": 6867,
+    "file": "6867_NON_CUSTOM_TAG_KEYS.js"
+  },
+  "NAME_TAG": {
+    "moduleId": 6867,
+    "file": "6867_NON_CUSTOM_TAG_KEYS.js"
+  },
+  "NAMED_TAG": {
+    "moduleId": 6867,
+    "file": "6867_NON_CUSTOM_TAG_KEYS.js"
+  },
+  "BackButton": {
+    "moduleId": 7161,
+    "file": "7161_BackButton.js"
+  },
+  "LevelEndActionSIOYandex": {
+    "moduleId": 7390,
+    "file": "7390_LevelEndActionSIOYandex.js"
+  },
+  "PauseOverlay": {
+    "moduleId": 7514,
+    "file": "7514_PauseOverlay.js"
+  },
+  "ShareLevelResultPopup": {
+    "moduleId": 8189,
+    "file": "8189_ShareLevelResultPopup.js"
+  },
+  "ShareComponent": {
+    "moduleId": 8207,
+    "file": "8207_ShareComponent.js"
+  },
+  "Button": {
+    "moduleId": 8407,
+    "file": "8407_Button.js"
+  },
+  "Url": {
+    "moduleId": 8575,
+    "file": "8575_Url.js"
+  },
+  "Action": {
+    "moduleId": 8734,
+    "file": "8734_Action.js"
+  },
+  "TypesApp": {
+    "moduleId": 8877,
+    "file": "8877_TypesApp.js"
+  },
+  "AdsModuleYandex": {
+    "moduleId": 9045,
+    "file": "9045_AdsModuleYandex.js"
+  },
+  "TypesFlow": {
+    "moduleId": 9168,
+    "file": "9168_TypesFlow.js"
+  },
+  "Participants": {
+    "moduleId": 9931,
+    "file": "9931_Participants.js"
+  },
+  "AllBuildingsQuery": {
+    "moduleId": 9964,
+    "file": "9964_AllBuildingsQuery.js"
+  },
+  "Capturing": {
+    "moduleId": 10065,
+    "file": "10065_Capturing.js"
+  },
+  "LevelNextAction": {
+    "moduleId": 10274,
+    "file": "10274_LevelNextAction.js"
+  },
+  "TRACK_EVENT": {
+    "moduleId": 61201,
+    "file": "61201_LevelEndAction.js"
+  },
+  "FREE_SOLO_ATTEMPTS": {
+    "moduleId": 10274,
+    "file": "10274_LevelNextAction.js"
+  },
+  "SocialEvents": {
+    "moduleId": 10357,
+    "file": "10357_SocialEvents.js"
+  },
+  "SOCIAL_POPUP": {
+    "moduleId": 10357,
+    "file": "10357_SocialEvents.js"
+  },
+  "BattleResultsPopupAction": {
+    "moduleId": 10379,
+    "file": "10379_BattleResultsPopupAction.js"
+  },
+  "AdsModule": {
+    "moduleId": 10556,
+    "file": "10556_AdsModule.js"
+  },
+  "TutorialSystem": {
+    "moduleId": 10754,
+    "file": "10754_TutorialSystem.js"
+  },
+  "ArrowView": {
+    "moduleId": 10910,
+    "file": "10910_ArrowView.js"
+  },
+  "InitStageSystem": {
+    "moduleId": 11073,
+    "file": "11073_InitStageSystem.js"
+  },
+  "CoreModule": {
+    "moduleId": 11370,
+    "file": "11370_CoreModule.js"
+  },
+  "GenerateMapSpriteAction": {
+    "moduleId": 11470,
+    "file": "11470_GenerateMapSpriteAction.js"
+  },
+  "DebugLevelPicker": {
+    "moduleId": 11617,
+    "file": "11617_DebugLevelPicker.js"
+  },
+  "DebugPanelGamePlay": {
+    "moduleId": 11748,
+    "file": "11748_DebugPanelGamePlay.js"
+  },
+  "FileDropArea": {
+    "moduleId": 11812,
+    "file": "11812_FileDropArea.js"
+  },
+  "StageEndAction": {
+    "moduleId": 12079,
+    "file": "12079_StageEndAction.js"
+  },
+  "SettingsButton": {
+    "moduleId": 12832,
+    "file": "12832_SettingsButton.js"
+  },
+  "BotPreset6FinalAgressive": {
+    "moduleId": 13866,
+    "file": "13866_BotPreset6FinalAgressive.js"
+  },
+  "BotPreset5Final": {
+    "moduleId": 13866,
+    "file": "13866_BotPreset6FinalAgressive.js"
+  },
+  "BotPreset4Hard": {
+    "moduleId": 13866,
+    "file": "13866_BotPreset6FinalAgressive.js"
+  },
+  "BotPreset3UpperMedium": {
+    "moduleId": 13866,
+    "file": "13866_BotPreset6FinalAgressive.js"
+  },
+  "BotPreset2Medium": {
+    "moduleId": 13866,
+    "file": "13866_BotPreset6FinalAgressive.js"
+  },
+  "BotPreset1Easy": {
+    "moduleId": 13866,
+    "file": "13866_BotPreset6FinalAgressive.js"
+  },
+  "BotPreset0Vegetable": {
+    "moduleId": 13866,
+    "file": "13866_BotPreset6FinalAgressive.js"
+  },
+  "DebugModule": {
+    "moduleId": 14107,
+    "file": "14107_DebugModule.js"
+  },
+  "ReactionSystem": {
+    "moduleId": 14134,
+    "file": "14134_ReactionSystem.js"
+  },
+  "SocialModuleYandex": {
+    "moduleId": 14562,
+    "file": "14562_SocialModuleYandex.js"
+  },
+  "LeaderBoard": {
+    "moduleId": 14633,
+    "file": "14633_LeaderBoard.js"
+  },
+  "NoAdsButton": {
+    "moduleId": 14954,
+    "file": "14954_NoAdsButton.js"
+  },
+  "ArrowsMediator": {
+    "moduleId": 15006,
+    "file": "15006_ArrowsMediator.js"
+  },
+  "LoginAction": {
+    "moduleId": 15850,
+    "file": "15850_LoginAction.js"
+  },
+  "LevelNextActionSIO": {
+    "moduleId": 15872,
+    "file": "15872_LevelNextActionSIO.js"
+  },
+  "ScreenShotActionSIO": {
+    "moduleId": 16465,
+    "file": "16465_ScreenShotActionSIO.js"
+  },
+  "STACK_OVERFLOW": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "CIRCULAR_DEPENDENCY_IN_FACTORY": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "POST_CONSTRUCT_ERROR": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "MULTIPLE_POST_CONSTRUCT_METHODS": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "CONTAINER_OPTIONS_INVALID_SKIP_BASE_CHECK": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "CONTAINER_OPTIONS_INVALID_AUTO_BIND_INJECTABLE": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "CONTAINER_OPTIONS_INVALID_DEFAULT_SCOPE": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "CONTAINER_OPTIONS_MUST_BE_AN_OBJECT": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "ARGUMENTS_LENGTH_MISMATCH": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "INVALID_DECORATOR_OPERATION": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "INVALID_TO_SELF_VALUE": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "INVALID_FUNCTION_BINDING": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "INVALID_MIDDLEWARE_RETURN": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "NO_MORE_SNAPSHOTS_AVAILABLE": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "INVALID_BINDING_TYPE": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "NOT_IMPLEMENTED": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "CIRCULAR_DEPENDENCY": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "UNDEFINED_INJECT_ANNOTATION": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "MISSING_INJECT_ANNOTATION": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "MISSING_INJECTABLE_ANNOTATION": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "NOT_REGISTERED": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "CANNOT_UNBIND": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "AMBIGUOUS_MATCH": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "KEY_NOT_FOUND": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "NULL_ARGUMENT": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "DUPLICATED_METADATA": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "DUPLICATED_INJECTABLE_DECORATOR": {
+    "moduleId": 16674,
+    "file": "16674_STACK_OVERFLOW.js"
+  },
+  "ScoreEvent": {
+    "moduleId": 17043,
+    "file": "17043_ScoreEvent.js"
+  },
+  "ScoreType": {
+    "moduleId": 17043,
+    "file": "17043_ScoreEvent.js"
+  },
+  "Signal": {
+    "moduleId": 17797,
+    "file": "17797_Signal.js"
+  },
+  "ScoreGroup": {
+    "moduleId": 17828,
+    "file": "17828_ScoreGroup.js"
+  },
+  "Target": {
+    "moduleId": 18924,
+    "file": "18924_Target.js"
+  },
+  "BootAction": {
+    "moduleId": 19305,
+    "file": "19305_BootAction.js"
+  },
+  "LevelStartAction": {
+    "moduleId": 19474,
+    "file": "19474_LevelStartAction.js"
+  },
+  "RootMediator": {
+    "moduleId": 65743,
+    "file": "65743_RootMediator.js"
+  },
+  "AppModel": {
+    "moduleId": 20383,
+    "file": "20383_AppModel.js"
+  },
+  "GroupModel": {
+    "moduleId": 20811,
+    "file": "20811_GroupModel.js"
+  },
+  "LevelTitle": {
+    "moduleId": 20911,
+    "file": "20911_LevelTitle.js"
+  },
+  "Claim": {
+    "moduleId": 22674,
+    "file": "22674_Claim.js"
+  },
+  "FirebaseAnalyticsProvider": {
+    "moduleId": 23004,
+    "file": "23004_FirebaseAnalyticsProvider.js"
+  },
+  "BindingCount": {
+    "moduleId": 23184,
+    "file": "23184_BindingCount.js"
+  },
+  "InitAudioAction": {
+    "moduleId": 23416,
+    "file": "23416_InitAudioAction.js"
+  },
+  "UIEvents": {
+    "moduleId": 23649,
+    "file": "23649_UIEvents.js"
+  },
+  "LeaderBoardInviteItem": {
+    "moduleId": 23862,
+    "file": "23862_LeaderBoardInviteItem.js"
+  },
+  "LevelEndActionSIO": {
+    "moduleId": 24294,
+    "file": "24294_LevelEndActionSIO.js"
+  },
+  "SteppedEase": {
+    "moduleId": 25317,
+    "file": "25317_SteppedEase.js"
+  },
+  "View": {
+    "moduleId": 25487,
+    "file": "25487_View.js"
+  },
+  "ADDED_TO_SCENE": {
+    "moduleId": 25487,
+    "file": "25487_View.js"
+  },
+  "REMOVED_FROM_SCENE": {
+    "moduleId": 25487,
+    "file": "25487_View.js"
+  },
+  "SyncYandexLeaderboardsAction": {
+    "moduleId": 25556,
+    "file": "25556_SyncYandexLeaderboardsAction.js"
+  },
+  "DecisionType": {
+    "moduleId": 25583,
+    "file": "25583_DecisionType.js"
+  },
+  "GameModuleBase": {
+    "moduleId": 25871,
+    "file": "25871_GameModuleBase.js"
+  },
+  "Random": {
+    "moduleId": 25879,
+    "file": "25879_Random.js"
+  },
+  "FighterView": {
+    "moduleId": 26463,
+    "file": "26463_FighterView.js"
+  },
+  "Building": {
+    "moduleId": 26511,
+    "file": "26511_Building.js"
+  },
+  "ACTIVE_TAG": {
+    "moduleId": 26511,
+    "file": "26511_Building.js"
+  },
+  "Population": {
+    "moduleId": 26630,
+    "file": "26630_Population.js"
+  },
+  "BLOCK_POPULATION_SECONDS": {
+    "moduleId": 26630,
+    "file": "26630_Population.js"
+  },
+  "SPAWN_AMOUNT_ON_OCCUPATION": {
+    "moduleId": 26630,
+    "file": "26630_Population.js"
+  },
+  "TypesUI": {
+    "moduleId": 26883,
+    "file": "26883_TypesUI.js"
+  },
+  "Field": {
+    "moduleId": 26903,
+    "file": "26903_Field.js"
+  },
+  "LoadLevelAction": {
+    "moduleId": 27588,
+    "file": "27588_LoadLevelAction.js"
+  },
+  "TypesSocial": {
+    "moduleId": 28037,
+    "file": "28037_TypesSocial.js"
+  },
+  "PopulationSystem": {
+    "moduleId": 28300,
+    "file": "28300_PopulationSystem.js"
+  },
+  "TargetTypeEnum": {
+    "moduleId": 86700,
+    "file": "86700_MetadataReader.js"
+  },
+  "BindingTypeEnum": {
+    "moduleId": 86700,
+    "file": "86700_MetadataReader.js"
+  },
+  "BindingScopeEnum": {
+    "moduleId": 86700,
+    "file": "86700_MetadataReader.js"
+  },
+  "CookieModelBase": {
+    "moduleId": 28696,
+    "file": "28696_CookieModelBase.js"
+  },
+  "Subscription": {
+    "moduleId": 29017,
+    "file": "29017_Subscription.js"
+  },
+  "UserIdLabel": {
+    "moduleId": 29343,
+    "file": "29343_UserIdLabel.js"
+  },
+  "StoreActionTypes": {
+    "moduleId": 29518,
+    "file": "29518_StoreActionTypes.js"
+  },
+  "PopupType": {
+    "moduleId": 30107,
+    "file": "30107_PopupType.js"
+  },
+  "LeaderBoardTabs": {
+    "moduleId": 30326,
+    "file": "30326_LeaderBoardTabs.js"
+  },
+  "FighterItem": {
+    "moduleId": 30851,
+    "file": "30851_FighterItem.js"
+  },
+  "UserDataWeb": {
+    "moduleId": 30945,
+    "file": "30945_UserDataWeb.js"
+  },
+  "COOKIE_NAME": {
+    "moduleId": 30945,
+    "file": "30945_UserDataWeb.js"
+  },
+  "AudioModel": {
+    "moduleId": 31267,
+    "file": "31267_AudioModel.js"
+  },
+  "COOKIE_KEY": {
+    "moduleId": 31267,
+    "file": "31267_AudioModel.js"
+  },
+  "MUTE_MUSIC": {
+    "moduleId": 31267,
+    "file": "31267_AudioModel.js"
+  },
+  "MUTE_SOUNDS": {
+    "moduleId": 31267,
+    "file": "31267_AudioModel.js"
+  },
+  "SocialOverlay": {
+    "moduleId": 31651,
+    "file": "31651_SocialOverlay.js"
+  },
+  "Engine": {
+    "moduleId": 32492,
+    "file": "32492_Engine.js"
+  },
+  "CoinsIndicator": {
+    "moduleId": 32715,
+    "file": "32715_CoinsIndicator.js"
+  },
+  "TypesPromo": {
+    "moduleId": 32782,
+    "file": "32782_TypesPromo.js"
+  },
+  "NAFinish": {
+    "moduleId": 33154,
+    "file": "33154_NAFinish.js"
+  },
+  "AsyncContainerModule": {
+    "moduleId": 86700,
+    "file": "86700_MetadataReader.js"
+  },
+  "ContainerModule": {
+    "moduleId": 86700,
+    "file": "86700_MetadataReader.js"
+  },
+  "LinkedComponentList": {
+    "moduleId": 33977,
+    "file": "33977_LinkedComponentList.js"
+  },
+  "CrossPromo": {
+    "moduleId": 34453,
+    "file": "34453_CrossPromo.js"
+  },
+  "BotUtility": {
+    "moduleId": 35081,
+    "file": "35081_BotUtility.js"
+  },
+  "EndScreenAction": {
+    "moduleId": 35567,
+    "file": "35567_EndScreenAction.js"
+  },
+  "MetaModel": {
+    "moduleId": 36356,
+    "file": "36356_MetaModel.js"
+  },
+  "PlayerType": {
+    "moduleId": 36596,
+    "file": "36596_PlayerType.js"
+  },
+  "SVG": {
+    "moduleId": 36622,
+    "file": "36622_SVG.js"
+  },
+  "Images": {
+    "moduleId": 36622,
+    "file": "36622_SVG.js"
+  },
+  "ContinentModel": {
+    "moduleId": 36637,
+    "file": "36637_ContinentModel.js"
+  },
+  "MultiplyBonus": {
+    "moduleId": 36710,
+    "file": "36710_MultiplyBonus.js"
+  },
+  "SequenceAction": {
+    "moduleId": 36889,
+    "file": "36889_SequenceAction.js"
+  },
+  "ShopTabHeader": {
+    "moduleId": 37079,
+    "file": "37079_ShopTabHeader.js"
+  },
+  "LazyAction": {
+    "moduleId": 37360,
+    "file": "37360_LazyAction.js"
+  },
+  "GameUIModule": {
+    "moduleId": 37532,
+    "file": "37532_GameUIModule.js"
+  },
+  "ODR_BUILD_ORIGIN": {
+    "moduleId": 37542,
+    "file": "37542_ODR_BUILD_ORIGIN.js"
+  },
+  "IS_ODR_BUILD": {
+    "moduleId": 37542,
+    "file": "37542_ODR_BUILD_ORIGIN.js"
+  },
+  "GAME_SCRIPT_ORIGIN": {
+    "moduleId": 37542,
+    "file": "37542_ODR_BUILD_ORIGIN.js"
+  },
+  "CANVAS_ID": {
+    "moduleId": 37542,
+    "file": "37542_ODR_BUILD_ORIGIN.js"
+  },
+  "CommonEvents": {
+    "moduleId": 37542,
+    "file": "37542_ODR_BUILD_ORIGIN.js"
+  },
+  "Icon": {
+    "moduleId": 37909,
+    "file": "37909_Icon.js"
+  },
+  "SocialModelBase": {
+    "moduleId": 38889,
+    "file": "38889_SocialModelBase.js"
+  },
+  "DebugPanelNotifications": {
+    "moduleId": 39068,
+    "file": "39068_DebugPanelNotifications.js"
+  },
+  "MultiplyArrow": {
+    "moduleId": 39811,
+    "file": "39811_MultiplyArrow.js"
+  },
+  "TimeTrack": {
+    "moduleId": 39887,
+    "file": "39887_TimeTrack.js"
+  },
+  "AdResponse": {
+    "moduleId": 40011,
+    "file": "40011_AdResponse.js"
+  },
+  "FieldMediator": {
+    "moduleId": 40470,
+    "file": "40470_FieldMediator.js"
+  },
+  "Overlay": {
+    "moduleId": 41099,
+    "file": "41099_Overlay.js"
+  },
+  "AlertsOverlay": {
+    "moduleId": 41510,
+    "file": "41510_AlertsOverlay.js"
+  },
+  "Avatar": {
+    "moduleId": 41595,
+    "file": "41595_Avatar.js"
+  },
+  "TypesAds": {
+    "moduleId": 41598,
+    "file": "41598_TypesAds.js"
+  },
+  "GiftTypeReward": {
+    "moduleId": 41714,
+    "file": "41714_GiftTypeReward.js"
+  },
+  "Howler": {
+    "moduleId": 41766,
+    "file": "41766_Howler.js"
+  },
+  "Howl": {
+    "moduleId": 41766,
+    "file": "41766_Howler.js"
+  },
+  "LeaderboardGlobalExternal": {
+    "moduleId": 41976,
+    "file": "41976_LeaderboardGlobalExternal.js"
+  },
+  "Mediator": {
+    "moduleId": 42182,
+    "file": "42182_Mediator.js"
+  },
+  "PaymentsModelBase": {
+    "moduleId": 42560,
+    "file": "42560_PaymentsModelBase.js"
+  },
+  "SuggestLoginPopup": {
+    "moduleId": 42709,
+    "file": "42709_SuggestLoginPopup.js"
+  },
+  "IterativeSystem": {
+    "moduleId": 42724,
+    "file": "42724_IterativeSystem.js"
+  },
+  "FingerView": {
+    "moduleId": 42854,
+    "file": "42854_FingerView.js"
+  },
+  "CircleAvatar": {
+    "moduleId": 42970,
+    "file": "42970_CircleAvatar.js"
+  },
+  "CreateTournamentFormDebug": {
+    "moduleId": 43507,
+    "file": "43507_CreateTournamentFormDebug.js"
+  },
+  "LeaderboardContextExternal": {
+    "moduleId": 43603,
+    "file": "43603_LeaderboardContextExternal.js"
+  },
+  "GlobalEventProvider": {
+    "moduleId": 44018,
+    "file": "44018_GlobalEventProvider.js"
+  },
+  "NAStartSIO": {
+    "moduleId": 44025,
+    "file": "44025_NAStartSIO.js"
+  },
+  "StartScreenAction": {
+    "moduleId": 44046,
+    "file": "44046_StartScreenAction.js"
+  },
+  "Binding": {
+    "moduleId": 44290,
+    "file": "44290_Binding.js"
+  },
+  "SIOConstants": {
+    "moduleId": 44365,
+    "file": "44365_SIOConstants.js"
+  },
+  "GameFlowModule": {
+    "moduleId": 44367,
+    "file": "44367_GameFlowModule.js"
+  },
+  "ShopPreview": {
+    "moduleId": 44698,
+    "file": "44698_ShopPreview.js"
+  },
+  "UpdateSkinsSystem": {
+    "moduleId": 44802,
+    "file": "44802_UpdateSkinsSystem.js"
+  },
+  "ProgressIndicator": {
+    "moduleId": 44966,
+    "file": "44966_ProgressIndicator.js"
+  },
+  "ParallelAction": {
+    "moduleId": 45105,
+    "file": "45105_ParallelAction.js"
+  },
+  "AdAction": {
+    "moduleId": 45301,
+    "file": "45301_AdAction.js"
+  },
+  "BState": {
+    "moduleId": 45329,
+    "file": "45329_BState.js"
+  },
+  "GenerateShareImageAction": {
+    "moduleId": 45724,
+    "file": "45724_GenerateShareImageAction.js"
+  },
+  "CancelButton": {
+    "moduleId": 45878,
+    "file": "45878_CancelButton.js"
+  },
+  "BurstWaveAction": {
+    "moduleId": 46044,
+    "file": "46044_BurstWaveAction.js"
+  },
+  "WinStagePopup": {
+    "moduleId": 46696,
+    "file": "46696_WinStagePopup.js"
+  },
+  "Fighter": {
+    "moduleId": 46697,
+    "file": "46697_Fighter.js"
+  },
+  "TAG": {
+    "moduleId": 46697,
+    "file": "46697_Fighter.js"
+  },
+  "TAG_DIED": {
+    "moduleId": 46697,
+    "file": "46697_Fighter.js"
+  },
+  "DEFAULT_SIZE": {
+    "moduleId": 46697,
+    "file": "46697_Fighter.js"
+  },
+  "NORMAL_SPEED": {
+    "moduleId": 46697,
+    "file": "46697_Fighter.js"
+  },
+  "DISTANCE_TOLERANCE": {
+    "moduleId": 46697,
+    "file": "46697_Fighter.js"
+  },
+  "CoinsField": {
+    "moduleId": 46766,
+    "file": "46766_CoinsField.js"
+  },
+  "SettingsPopup": {
+    "moduleId": 47277,
+    "file": "47277_SettingsPopup.js"
+  },
+  "GameEvents": {
+    "moduleId": 47283,
+    "file": "47283_GameEvents.js"
+  },
+  "InputSystem": {
+    "moduleId": 47572,
+    "file": "47572_InputSystem.js"
+  },
+  "ShowWinPopupAction": {
+    "moduleId": 47665,
+    "file": "47665_ShowWinPopupAction.js"
+  },
+  "AvatarGroup": {
+    "moduleId": 47702,
+    "file": "47702_AvatarGroup.js"
+  },
+  "Metadata": {
+    "moduleId": 47738,
+    "file": "47738_Metadata.js"
+  },
+  "GenerateMapShapeAction": {
+    "moduleId": 48115,
+    "file": "48115_GenerateMapShapeAction.js"
+  },
+  "PopupWinIndicator": {
+    "moduleId": 49071,
+    "file": "49071_PopupWinIndicator.js"
+  },
+  "BaseScreen": {
+    "moduleId": 49083,
+    "file": "49083_BaseScreen.js"
+  },
+  "PlayWithOpponentAction": {
+    "moduleId": 49295,
+    "file": "49295_PlayWithOpponentAction.js"
+  },
+  "CrossPromoComponent": {
+    "moduleId": 49934,
+    "file": "49934_CrossPromoComponent.js"
+  },
+  "ReferralRewardsModel": {
+    "moduleId": 50867,
+    "file": "50867_ReferralRewardsModel.js"
+  },
+  "TutorialFingerView": {
+    "moduleId": 51006,
+    "file": "51006_TutorialFingerView.js"
+  },
+  "MetadataReader": {
+    "moduleId": 86700,
+    "file": "86700_MetadataReader.js"
+  },
+  "Container": {
+    "moduleId": 86700,
+    "file": "86700_MetadataReader.js"
+  },
+  "StartGameAction": {
+    "moduleId": 51779,
+    "file": "51779_StartGameAction.js"
+  },
+  "BindingOnSyntax": {
+    "moduleId": 51811,
+    "file": "51811_BindingOnSyntax.js"
+  },
+  "BindingToSyntax": {
+    "moduleId": 51860,
+    "file": "51860_BindingToSyntax.js"
+  },
+  "QueryBuilder": {
+    "moduleId": 51997,
+    "file": "51997_QueryBuilder.js"
+  },
+  "Query": {
+    "moduleId": 51997,
+    "file": "51997_QueryBuilder.js"
+  },
+  "Spawner": {
+    "moduleId": 52057,
+    "file": "52057_Spawner.js"
+  },
+  "UNITS_PER_WAVE": {
+    "moduleId": 52057,
+    "file": "52057_Spawner.js"
+  },
+  "BURST_WAVES_LEN": {
+    "moduleId": 52057,
+    "file": "52057_Spawner.js"
+  },
+  "SvgCapturingProgress": {
+    "moduleId": 52472,
+    "file": "52472_SvgCapturingProgress.js"
+  },
+  "ProgressBar": {
+    "moduleId": 56212,
+    "file": "56212_ProgressBar.js"
+  },
+  "SuggestAuthorizeAction": {
+    "moduleId": 52958,
+    "file": "52958_SuggestAuthorizeAction.js"
+  },
+  "TapToPlayButton": {
+    "moduleId": 53309,
+    "file": "53309_TapToPlayButton.js"
+  },
+  "CapitalView": {
+    "moduleId": 53351,
+    "file": "53351_CapitalView.js"
+  },
+  "AnalyticsTracker": {
+    "moduleId": 53373,
+    "file": "53373_AnalyticsTracker.js"
+  },
+  "ContinueButton": {
+    "moduleId": 53527,
+    "file": "53527_ContinueButton.js"
+  },
+  "LosePopup": {
+    "moduleId": 53841,
+    "file": "53841_LosePopup.js"
+  },
+  "SetupSentryAction": {
+    "moduleId": 54261,
+    "file": "54261_SetupSentryAction.js"
+  },
+  "NALeave": {
+    "moduleId": 54799,
+    "file": "54799_NALeave.js"
+  },
+  "Plan": {
+    "moduleId": 55314,
+    "file": "55314_Plan.js"
+  },
+  "InviteButton": {
+    "moduleId": 55378,
+    "file": "55378_InviteButton.js"
+  },
+  "GameModule": {
+    "moduleId": 55937,
+    "file": "55937_GameModule.js"
+  },
+  "Score": {
+    "moduleId": 55960,
+    "file": "55960_Score.js"
+  },
+  "GiftPopup": {
+    "moduleId": 56184,
+    "file": "56184_GiftPopup.js"
+  },
+  "LevelRestartAction": {
+    "moduleId": 56403,
+    "file": "56403_LevelRestartAction.js"
+  },
+  "SHOW_AD_INTERVAL": {
+    "moduleId": 56403,
+    "file": "56403_LevelRestartAction.js"
+  },
+  "LAST_RESTART": {
+    "moduleId": 56403,
+    "file": "56403_LevelRestartAction.js"
+  },
+  "TournamentsDebugPanel": {
+    "moduleId": 56462,
+    "file": "56462_TournamentsDebugPanel.js"
+  },
+  "ConfirmPopup": {
+    "moduleId": 56532,
+    "file": "56532_ConfirmPopup.js"
+  },
+  "Winner": {
+    "moduleId": 56612,
+    "file": "56612_Winner.js"
+  },
+  "Booster": {
+    "moduleId": 56721,
+    "file": "56721_Booster.js"
+  },
+  "BoosterType": {
+    "moduleId": 56721,
+    "file": "56721_Booster.js"
+  },
+  "CookieModel": {
+    "moduleId": 56792,
+    "file": "56792_CookieModel.js"
+  },
+  "CookieModelKey": {
+    "moduleId": 56792,
+    "file": "56792_CookieModel.js"
+  },
+  "WinStars": {
+    "moduleId": 57103,
+    "file": "57103_WinStars.js"
+  },
+  "MainAction": {
+    "moduleId": 57165,
+    "file": "57165_MainAction.js"
+  },
+  "TournamentCreateAction": {
+    "moduleId": 57503,
+    "file": "57503_TournamentCreateAction.js"
+  },
+  "POST_WIDTH": {
+    "moduleId": 57503,
+    "file": "57503_TournamentCreateAction.js"
+  },
+  "POST_HEIGHT": {
+    "moduleId": 57503,
+    "file": "57503_TournamentCreateAction.js"
+  },
+  "PathsGenerationSystem": {
+    "moduleId": 57620,
+    "file": "57620_PathsGenerationSystem.js"
+  },
+  "SessionData": {
+    "moduleId": 57655,
+    "file": "57655_SessionData.js"
+  },
+  "CookieDataLocalStorage": {
+    "moduleId": 58670,
+    "file": "58670_CookieDataLocalStorage.js"
+  },
+  "CookieDataWeb": {
+    "moduleId": 58670,
+    "file": "58670_CookieDataLocalStorage.js"
+  },
+  "CookieDataBase": {
+    "moduleId": 58670,
+    "file": "58670_CookieDataLocalStorage.js"
+  },
+  "CoreGameModule": {
+    "moduleId": 59201,
+    "file": "59201_CoreGameModule.js"
+  },
+  "FieldView": {
+    "moduleId": 59310,
+    "file": "59310_FieldView.js"
+  },
+  "BotCalculationLogic": {
+    "moduleId": 59474,
+    "file": "59474_BotCalculationLogic.js"
+  },
+  "Type": {
+    "moduleId": 59474,
+    "file": "59474_BotCalculationLogic.js"
+  },
+  "Owner": {
+    "moduleId": 59474,
+    "file": "59474_BotCalculationLogic.js"
+  },
+  "UserYandex": {
+    "moduleId": 59503,
+    "file": "59503_UserYandex.js"
+  },
+  "SkinManager": {
+    "moduleId": 60079,
+    "file": "60079_SkinManager.js"
+  },
+  "DebugPopup": {
+    "moduleId": 60097,
+    "file": "60097_DebugPopup.js"
+  },
+  "AppModule": {
+    "moduleId": 60320,
+    "file": "60320_AppModule.js"
+  },
+  "CrossPromoModule": {
+    "moduleId": 60921,
+    "file": "60921_CrossPromoModule.js"
+  },
+  "LevelEndAction": {
+    "moduleId": 61201,
+    "file": "61201_LevelEndAction.js"
+  },
+  "PaymentsModelYandex": {
+    "moduleId": 61767,
+    "file": "61767_PaymentsModelYandex.js"
+  },
+  "ActiveBuildingsQuery": {
+    "moduleId": 62260,
+    "file": "62260_ActiveBuildingsQuery.js"
+  },
+  "TexturedShopItem": {
+    "moduleId": 62415,
+    "file": "62415_TexturedShopItem.js"
+  },
+  "BattleResults": {
+    "moduleId": 62482,
+    "file": "62482_BattleResults.js"
+  },
+  "TypesAudio": {
+    "moduleId": 62653,
+    "file": "62653_TypesAudio.js"
+  },
+  "ConfirmButton": {
+    "moduleId": 62671,
+    "file": "62671_ConfirmButton.js"
+  },
+  "EntitySnapshot": {
+    "moduleId": 63017,
+    "file": "63017_EntitySnapshot.js"
+  },
+  "Entity": {
+    "moduleId": 63017,
+    "file": "63017_EntitySnapshot.js"
+  },
+  "BackendModel": {
+    "moduleId": 63333,
+    "file": "63333_BackendModel.js"
+  },
+  "StatusAlertService": {
+    "moduleId": 99061,
+    "file": "99061_StatusAlertService.js"
+  },
+  "SocialModelYandex": {
+    "moduleId": 63895,
+    "file": "63895_SocialModelYandex.js"
+  },
+  "InitAdManagerAction": {
+    "moduleId": 64122,
+    "file": "64122_InitAdManagerAction.js"
+  },
+  "DebugPanel": {
+    "moduleId": 64920,
+    "file": "64920_DebugPanel.js"
+  },
+  "AdManagerYandex": {
+    "moduleId": 65021,
+    "file": "65021_AdManagerYandex.js"
+  },
+  "AuthActionBase": {
+    "moduleId": 65248,
+    "file": "65248_AuthActionBase.js"
+  },
+  "GameState": {
+    "moduleId": 65370,
+    "file": "65370_GameState.js"
+  },
+  "PlayWithOpponentActionSIO": {
+    "moduleId": 65897,
+    "file": "65897_PlayWithOpponentActionSIO.js"
+  },
+  "SelectableFighterDataSet": {
+    "moduleId": 66154,
+    "file": "66154_SelectableFighterDataSet.js"
+  },
+  "SelectableBuildingDataSet": {
+    "moduleId": 66154,
+    "file": "66154_SelectableFighterDataSet.js"
+  },
+  "SelectableColorsDataSet": {
+    "moduleId": 66154,
+    "file": "66154_SelectableFighterDataSet.js"
+  },
+  "SelectableColorCss": {
+    "moduleId": 66154,
+    "file": "66154_SelectableFighterDataSet.js"
+  },
+  "UserSelectableColorsSet": {
+    "moduleId": 66154,
+    "file": "66154_SelectableFighterDataSet.js"
+  },
+  "SkinType": {
+    "moduleId": 66154,
+    "file": "66154_SelectableFighterDataSet.js"
+  },
+  "GameColors": {
+    "moduleId": 66154,
+    "file": "66154_SelectableFighterDataSet.js"
+  },
+  "UserScore": {
+    "moduleId": 66423,
+    "file": "66423_UserScore.js"
+  },
+  "Promise": {
+    "moduleId": 66713,
+    "file": "66713_Promise.js"
+  },
+  "Polyfill": {
+    "moduleId": 66713,
+    "file": "66713_Promise.js"
+  },
+  "CreateFPSMeterAction": {
+    "moduleId": 66920,
+    "file": "66920_CreateFPSMeterAction.js"
+  },
+  "Cookie": {
+    "moduleId": 67149,
+    "file": "67149_Cookie.js"
+  },
+  "Boosters": {
+    "moduleId": 67884,
+    "file": "67884_Boosters.js"
+  },
+  "InitAdManagerYandexAction": {
+    "moduleId": 68047,
+    "file": "68047_InitAdManagerYandexAction.js"
+  },
+  "Spinner": {
+    "moduleId": 68878,
+    "file": "68878_Spinner.js"
+  },
+  "UserStatusInfo": {
+    "moduleId": 69080,
+    "file": "69080_UserStatusInfo.js"
+  },
+  "HTMLUIModule": {
+    "moduleId": 70051,
+    "file": "70051_HTMLUIModule.js"
+  },
+  "LevelRestartAfterYandexLoginAction": {
+    "moduleId": 70055,
+    "file": "70055_LevelRestartAfterYandexLoginAction.js"
+  },
+  "NotificationsModule": {
+    "moduleId": 70669,
+    "file": "70669_NotificationsModule.js"
+  },
+  "Localize": {
+    "moduleId": 70796,
+    "file": "70796_Localize.js"
+  },
+  "PlaySoundAction": {
+    "moduleId": 70919,
+    "file": "70919_PlaySoundAction.js"
+  },
+  "AvatarPlayInGroup": {
+    "moduleId": 71290,
+    "file": "71290_AvatarPlayInGroup.js"
+  },
+  "BindingWhenOnSyntax": {
+    "moduleId": 71325,
+    "file": "71325_BindingWhenOnSyntax.js"
+  },
+  "LevelEndSystem": {
+    "moduleId": 71554,
+    "file": "71554_LevelEndSystem.js"
+  },
+  "LinkedComponent": {
+    "moduleId": 71644,
+    "file": "71644_LinkedComponent.js"
+  },
+  "WaitAction": {
+    "moduleId": 71794,
+    "file": "71794_WaitAction.js"
+  },
+  "FighterDeathEffectAction": {
+    "moduleId": 71981,
+    "file": "71981_FighterDeathEffectAction.js"
+  },
+  "BotsSystem": {
+    "moduleId": 72063,
+    "file": "72063_BotsSystem.js"
+  },
+  "FighterGroup": {
+    "moduleId": 72257,
+    "file": "72257_FighterGroup.js"
+  },
+  "SocialBanners": {
+    "moduleId": 72688,
+    "file": "72688_SocialBanners.js"
+  },
+  "AdManagerBase": {
+    "moduleId": 73018,
+    "file": "73018_AdManagerBase.js"
+  },
+  "CapturingAnimated": {
+    "moduleId": 73097,
+    "file": "73097_CapturingAnimated.js"
+  },
+  "TypesCore": {
+    "moduleId": 73104,
+    "file": "73104_TypesCore.js"
+  },
+  "Graphics": {
+    "moduleId": 73134,
+    "file": "73134_Graphics.js"
+  },
+  "VersionLabel": {
+    "moduleId": 73793,
+    "file": "73793_VersionLabel.js"
+  },
+  "UIConstants": {
+    "moduleId": 74083,
+    "file": "74083_UIConstants.js"
+  },
+  "ShopType": {
+    "moduleId": 74083,
+    "file": "74083_UIConstants.js"
+  },
+  "PlayMusicAction": {
+    "moduleId": 74886,
+    "file": "74886_PlayMusicAction.js"
+  },
+  "AnalyticsModule": {
+    "moduleId": 74981,
+    "file": "74981_AnalyticsModule.js"
+  },
+  "AudioModule": {
+    "moduleId": 75564,
+    "file": "75564_AudioModule.js"
+  },
+  "ClaimButton": {
+    "moduleId": 75663,
+    "file": "75663_ClaimButton.js"
+  },
+  "ToggleControl": {
+    "moduleId": 75953,
+    "file": "75953_ToggleControl.js"
+  },
+  "ShopItem": {
+    "moduleId": 76282,
+    "file": "76282_ShopItem.js"
+  },
+  "ShopScreen": {
+    "moduleId": 76742,
+    "file": "76742_ShopScreen.js"
+  },
+  "UIRoot": {
+    "moduleId": 76883,
+    "file": "76883_UIRoot.js"
+  },
+  "UserDataLocalStorage": {
+    "moduleId": 77499,
+    "file": "77499_UserDataLocalStorage.js"
+  },
+  "ScreenshotAction": {
+    "moduleId": 77754,
+    "file": "77754_ScreenshotAction.js"
+  },
+  "CommandsGenerator": {
+    "moduleId": 77875,
+    "file": "77875_CommandsGenerator.js"
+  },
+  "UserPic": {
+    "moduleId": 78001,
+    "file": "78001_UserPic.js"
+  },
+  "BattleResultsPopup": {
+    "moduleId": 78199,
+    "file": "78199_BattleResultsPopup.js"
+  },
+  "GiftItem": {
+    "moduleId": 79147,
+    "file": "79147_GiftItem.js"
+  },
+  "Types2D": {
+    "moduleId": 79384,
+    "file": "79384_Types2D.js"
+  },
+  "ProgressSection": {
+    "moduleId": 79631,
+    "file": "79631_ProgressSection.js"
+  },
+  "Lookup": {
+    "moduleId": 80175,
+    "file": "80175_Lookup.js"
+  },
+  "ArrowsView": {
+    "moduleId": 80219,
+    "file": "80219_ArrowsView.js"
+  },
+  "InputManagerBase": {
+    "moduleId": 81717,
+    "file": "81717_InputManagerBase.js"
+  },
+  "StatusAlertView": {
+    "moduleId": 82288,
+    "file": "82288_StatusAlertView.js"
+  },
+  "GameConstants": {
+    "moduleId": 82496,
+    "file": "82496_GameConstants.js"
+  },
+  "MetaConfig": {
+    "moduleId": 82713,
+    "file": "82713_MetaConfig.js"
+  },
+  "TypesAnalytics": {
+    "moduleId": 82943,
+    "file": "82943_TypesAnalytics.js"
+  },
+  "ShopButton": {
+    "moduleId": 82978,
+    "file": "82978_ShopButton.js"
+  },
+  "LevelRestartActionSIO": {
+    "moduleId": 83042,
+    "file": "83042_LevelRestartActionSIO.js"
+  },
+  "BindingInSyntax": {
+    "moduleId": 83366,
+    "file": "83366_BindingInSyntax.js"
+  },
+  "InversifyContext": {
+    "moduleId": 83430,
+    "file": "83430_InversifyContext.js"
+  },
+  "ShopMenu": {
+    "moduleId": 83643,
+    "file": "83643_ShopMenu.js"
+  },
+  "BuildingItem": {
+    "moduleId": 83719,
+    "file": "83719_BuildingItem.js"
+  },
+  "InputManager": {
+    "moduleId": 83847,
+    "file": "83847_InputManager.js"
+  },
+  "StatusAlertContainer": {
+    "moduleId": 84077,
+    "file": "84077_StatusAlertContainer.js"
+  },
+  "Settings": {
+    "moduleId": 84725,
+    "file": "84725_Settings.js"
+  },
+  "FilledRects": {
+    "moduleId": 84965,
+    "file": "84965_FilledRects.js"
+  },
+  "PathHolder": {
+    "moduleId": 85126,
+    "file": "85126_PathHolder.js"
+  },
+  "CheatsAction": {
+    "moduleId": 85162,
+    "file": "85162_CheatsAction.js"
+  },
+  "ContainerSnapshot": {
+    "moduleId": 85700,
+    "file": "85700_ContainerSnapshot.js"
+  },
+  "FighterGroupsSystem": {
+    "moduleId": 85765,
+    "file": "85765_FighterGroupsSystem.js"
+  },
+  "NoThanksButton": {
+    "moduleId": 86602,
+    "file": "86602_NoThanksButton.js"
+  },
+  "METADATA_KEY": {
+    "moduleId": 86700,
+    "file": "86700_MetadataReader.js"
+  },
+  "LevelCompletedPopupAction": {
+    "moduleId": 87460,
+    "file": "87460_LevelCompletedPopupAction.js"
+  },
+  "QueryableString": {
+    "moduleId": 88460,
+    "file": "88460_QueryableString.js"
+  },
+  "AdEvents": {
+    "moduleId": 88893,
+    "file": "88893_AdEvents.js"
+  },
+  "DisplaySystem": {
+    "moduleId": 88969,
+    "file": "88969_DisplaySystem.js"
+  },
+  "GameModuleYandex": {
+    "moduleId": 89286,
+    "file": "89286_GameModuleYandex.js"
+  },
+  "UserDataYandex": {
+    "moduleId": 90050,
+    "file": "90050_UserDataYandex.js"
+  },
+  "UrlParser": {
+    "moduleId": 90134,
+    "file": "90134_UrlParser.js"
+  },
+  "AuthYandexAction": {
+    "moduleId": 90190,
+    "file": "90190_AuthYandexAction.js"
+  },
+  "LeaderBoardItem": {
+    "moduleId": 90211,
+    "file": "90211_LeaderBoardItem.js"
+  },
+  "PIXIUIModule": {
+    "moduleId": 90399,
+    "file": "90399_PIXIUIModule.js"
+  },
+  "StateShapeView": {
+    "moduleId": 91585,
+    "file": "91585_StateShapeView.js"
+  },
+  "ColorItem": {
+    "moduleId": 92068,
+    "file": "92068_ColorItem.js"
+  },
+  "PauseAction": {
+    "moduleId": 92287,
+    "file": "92287_PauseAction.js"
+  },
+  "NAStart": {
+    "moduleId": 92406,
+    "file": "92406_NAStart.js"
+  },
+  "UserDataBase": {
+    "moduleId": 92819,
+    "file": "92819_UserDataBase.js"
+  },
+  "ShareActionOk": {
+    "moduleId": 93533,
+    "file": "93533_ShareActionOk.js"
+  },
+  "TournamentShareAction": {
+    "moduleId": 93599,
+    "file": "93599_TournamentShareAction.js"
+  },
+  "HTTPRequest": {
+    "moduleId": 93668,
+    "file": "93668_HTTPRequest.js"
+  },
+  "RootView": {
+    "moduleId": 93710,
+    "file": "93710_RootView.js"
+  },
+  "GamePlaySystem": {
+    "moduleId": 93972,
+    "file": "93972_GamePlaySystem.js"
+  },
+  "GamePlayEvent": {
+    "moduleId": 93972,
+    "file": "93972_GamePlaySystem.js"
+  },
+  "WinRays": {
+    "moduleId": 94571,
+    "file": "94571_WinRays.js"
+  },
+  "GameModel": {
+    "moduleId": 94572,
+    "file": "94572_GameModel.js"
+  },
+  "LEVELS_PREDEFINED": {
+    "moduleId": 94572,
+    "file": "94572_GameModel.js"
+  },
+  "DEFAULT_CTX_DATA": {
+    "moduleId": 94572,
+    "file": "94572_GameModel.js"
+  },
+  "SetupUIAction": {
+    "moduleId": 94732,
+    "file": "94732_SetupUIAction.js"
+  },
+  "SIOPreloadAssetsAction": {
+    "moduleId": 94766,
+    "file": "94766_SIOPreloadAssetsAction.js"
+  },
+  "Popups": {
+    "moduleId": 94776,
+    "file": "94776_Popups.js"
+  },
+  "Count": {
+    "moduleId": 94872,
+    "file": "94872_Count.js"
+  },
+  "Context": {
+    "moduleId": 95228,
+    "file": "95228_Context.js"
+  },
+  "StatusAlertItem": {
+    "moduleId": 95252,
+    "file": "95252_StatusAlertItem.js"
+  },
+  "GamePlayScreen": {
+    "moduleId": 95622,
+    "file": "95622_GamePlayScreen.js"
+  },
+  "TypesGame": {
+    "moduleId": 95781,
+    "file": "95781_TypesGame.js"
+  },
+  "LeaderboardButton": {
+    "moduleId": 96087,
+    "file": "96087_LeaderboardButton.js"
+  },
+  "OfflineEarningsPopup": {
+    "moduleId": 96126,
+    "file": "96126_OfflineEarningsPopup.js"
+  },
+  "PCell": {
+    "moduleId": 96239,
+    "file": "96239_PCell.js"
+  },
+  "EventDispatcher": {
+    "moduleId": 96488,
+    "file": "96488_EventDispatcher.js"
+  },
+  "StartScreen": {
+    "moduleId": 96648,
+    "file": "96648_StartScreen.js"
+  },
+  "NotificationAction": {
+    "moduleId": 97158,
+    "file": "97158_NotificationAction.js"
+  },
+  "IMAGES_CACHE": {
+    "moduleId": 97158,
+    "file": "97158_NotificationAction.js"
+  },
+  "EMOJI": {
+    "moduleId": 97158,
+    "file": "97158_NotificationAction.js"
+  },
+  "WIDTH_FULL": {
+    "moduleId": 97158,
+    "file": "97158_NotificationAction.js"
+  },
+  "HEIGHT_FULL": {
+    "moduleId": 97158,
+    "file": "97158_NotificationAction.js"
+  },
+  "ShowGiftPopupAction": {
+    "moduleId": 97586,
+    "file": "97586_ShowGiftPopupAction.js"
+  },
+  "GTAGAnalyticsProvider": {
+    "moduleId": 97907,
+    "file": "97907_GTAGAnalyticsProvider.js"
+  },
+  "GlobalEventProviderComponent": {
+    "moduleId": 97949,
+    "file": "97949_GlobalEventProviderComponent.js"
+  },
+  "LeaderboardGlobalYandex": {
+    "moduleId": 97954,
+    "file": "97954_LeaderboardGlobalYandex.js"
+  },
+  "PREFIX": {
+    "moduleId": 97954,
+    "file": "97954_LeaderboardGlobalYandex.js"
+  },
+  "TypesNotification": {
+    "moduleId": 98241,
+    "file": "98241_TypesNotification.js"
+  },
+  "BindingWhenSyntax": {
+    "moduleId": 98370,
+    "file": "98370_BindingWhenSyntax.js"
+  },
+  "System": {
+    "moduleId": 99007,
+    "file": "99007_System.js"
+  },
+  "StatusAlertServiceClass": {
+    "moduleId": 99061,
+    "file": "99061_StatusAlertService.js"
+  },
+  "LevelStartActionSIO": {
+    "moduleId": 99629,
+    "file": "99629_LevelStartActionSIO.js"
+  },
+  "PageModel": {
+    "moduleId": 99794,
+    "file": "99794_PageModel.js"
+  },
+  "FighterMovementSystem": {
+    "moduleId": 99806,
+    "file": "99806_FighterMovementSystem.js"
+  },
+  "FighterEvent": {
+    "moduleId": 99806,
+    "file": "99806_FighterMovementSystem.js"
+  },
+  "BindingInWhenOnSyntax": {
+    "moduleId": 99812,
+    "file": "99812_BindingInWhenOnSyntax.js"
+  },
+  "Screens": {
+    "moduleId": 99836,
+    "file": "99836_Screens.js"
+  }
+}

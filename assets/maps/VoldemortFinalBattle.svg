@@ -1,0 +1,116 @@
+<svg width="1000" height="720" viewBox="0 0 1000 720" fill="none" style="background:#1E2430" xmlns="http://www.w3.org/2000/svg">
+  <g id="VoldemortFinalBattle">
+    <g id="Stage1">
+      <g id="VFB_ForbiddenForestCamp">
+        <path id="VFB_ForbiddenForestCamp_2" d="M60 70L270 70L300 240L80 260Z" fill="#FF634D" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_ForbiddenForestCamp"><circle cx="175" cy="160" r="24" fill="white"/></g>
+      </g>
+      <g id="VFB_NaginiGuard">
+        <path id="VFB_NaginiGuard_2" d="M270 70L500 70L520 240L300 240Z" fill="#FF634D" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_NaginiGuard"><circle cx="410" cy="154" r="24" fill="white"/></g>
+      </g>
+      <g id="VFB_DeathEaterLine">
+        <path id="VFB_DeathEaterLine_2" d="M500 70L740 80L720 260L520 240Z" fill="#FF634D" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_DeathEaterLine"><circle cx="615" cy="160" r="24" fill="white"/></g>
+      </g>
+      <g id="VFB_VoldemortRise">
+        <path id="VFB_VoldemortRise_2" d="M740 80L940 110L940 310L720 260Z" fill="#FF634D" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_VoldemortRise"><circle cx="835" cy="190" r="25" fill="white"/></g>
+      </g>
+      <g id="VFB_BlackLakeShore">
+        <path id="VFB_BlackLakeShore_2" d="M80 260L300 240L360 420L240 560L60 540Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_BlackLakeShore"><circle cx="196" cy="408" r="24" fill="white"/></g>
+      </g>
+      <g id="VFB_ViaductBridge">
+        <path id="VFB_ViaductBridge_2" d="M300 240L520 240L560 360L360 420Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_ViaductBridge"><circle cx="434" cy="314" r="24" fill="white"/></g>
+      </g>
+      <g id="VFB_AstronomyTower">
+        <path id="VFB_AstronomyTower_2" d="M520 240L720 260L700 400L560 360Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_AstronomyTower"><circle cx="620" cy="318" r="24" fill="white"/></g>
+      </g>
+      <g id="VFB_BellTower">
+        <path id="VFB_BellTower_2" d="M360 420L560 360L610 500L420 560Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_BellTower"><circle cx="492" cy="462" r="24" fill="white"/></g>
+      </g>
+      <g id="VFB_Courtyard">
+        <path id="VFB_Courtyard_2" d="M560 360L700 400L760 540L610 500Z" fill="#74BCFF" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_Courtyard"><circle cx="680" cy="462" r="25" fill="white"/></g>
+      </g>
+      <g id="VFB_StoneGuardians">
+        <path id="VFB_StoneGuardians_2" d="M700 400L900 360L940 520L760 540Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_StoneGuardians"><circle cx="820" cy="456" r="24" fill="white"/></g>
+      </g>
+      <g id="VFB_GreatHallDuel">
+        <path id="VFB_GreatHallDuel_2" d="M610 500L760 540L880 650L650 690L520 610Z" fill="#74BCFF" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_GreatHallDuel"><circle cx="674" cy="600" r="25" fill="white"/></g>
+      </g>
+      <g id="VFB_RoomExit">
+        <path id="VFB_RoomExit_2" d="M240 560L420 560L520 610L360 690L180 660Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_RoomExit"><circle cx="330" cy="620" r="24" fill="white"/></g>
+      </g>
+      <g id="VFB_Boathouse">
+        <path id="VFB_Boathouse_2" d="M60 540L240 560L180 660L60 650Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_Boathouse"><circle cx="136" cy="604" r="23" fill="white"/></g>
+      </g>
+      <g id="VFB_FallenStaircase">
+        <path id="VFB_FallenStaircase_2" d="M420 560L610 500L520 610Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_FallenStaircase"><circle cx="510" cy="560" r="23" fill="white"/></g>
+      </g>
+    </g>
+
+    <g id="BattleVisuals" pointer-events="none">
+      <rect width="1000" height="720" fill="#0D1420" opacity="0.14"/>
+      <path d="M60 70L270 70L300 240L80 260Z" fill="#273D2E" opacity="0.7"/>
+      <path d="M98 116L128 58L158 116M150 214L194 130L238 214M64 250L104 170L144 250" fill="#324A34" stroke="#E8DFCC" stroke-width="3" opacity="0.7"/>
+      <path d="M742 88C830 86 898 128 940 206" stroke="#71E6A4" stroke-width="5" stroke-linecap="round" opacity="0.45"/>
+      <path d="M330 302C410 286 498 284 560 350M390 430C474 404 566 394 706 442" stroke="#F6D684" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+      <path d="M612 516L742 548L822 628L650 672L548 610Z" fill="#5C5E68" stroke="#E8DFCC" stroke-width="3" opacity="0.7"/>
+      <path d="M582 368L620 270L660 368M642 390L684 292L724 390" fill="#555E76" stroke="#E8DFCC" stroke-width="3"/>
+      <path d="M772 430L792 384L812 430M842 418L862 372L882 418M902 492L922 446L942 492" fill="#6B6D73" stroke="#E8DFCC" stroke-width="3"/>
+      <path d="M74 512C150 476 264 490 334 426M88 584C152 616 220 610 288 560" stroke="#8AD6FF" stroke-width="5" stroke-linecap="round" opacity="0.48"/>
+      <text x="64" y="50" fill="#F4EEDF" font-family="Arial, sans-serif" font-size="24" font-weight="700">北</text>
+      <path d="M76 84V24M76 24L58 54M76 24L94 54" stroke="#F4EEDF" stroke-width="4" stroke-linecap="round"/>
+
+      <circle cx="175" cy="160" r="33" fill="white" opacity="0.96"/>
+      <circle cx="410" cy="154" r="33" fill="white" opacity="0.96"/>
+      <circle cx="615" cy="160" r="33" fill="white" opacity="0.96"/>
+      <circle cx="835" cy="190" r="34" fill="white" opacity="0.96"/>
+      <circle cx="196" cy="408" r="33" fill="white" opacity="0.96"/>
+      <circle cx="434" cy="314" r="33" fill="white" opacity="0.96"/>
+      <circle cx="620" cy="318" r="33" fill="white" opacity="0.96"/>
+      <circle cx="492" cy="462" r="33" fill="white" opacity="0.96"/>
+      <circle cx="680" cy="462" r="34" fill="white" opacity="0.96"/>
+      <circle cx="820" cy="456" r="33" fill="white" opacity="0.96"/>
+      <circle cx="674" cy="600" r="35" fill="white" opacity="0.96"/>
+      <circle cx="330" cy="620" r="33" fill="white" opacity="0.96"/>
+      <circle cx="136" cy="604" r="31" fill="white" opacity="0.96"/>
+      <circle cx="510" cy="560" r="31" fill="white" opacity="0.96"/>
+
+      <text x="175" y="152" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">禁林</text>
+      <text x="175" y="174" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">营地</text>
+      <text x="410" y="146" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">纳吉尼</text>
+      <text x="410" y="168" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">护卫</text>
+      <text x="615" y="152" fill="#111318" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle">食死徒</text>
+      <text x="615" y="174" fill="#111318" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle">阵线</text>
+      <text x="835" y="182" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">伏地魔</text>
+      <text x="835" y="204" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">本阵</text>
+      <text x="196" y="400" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">黑湖</text>
+      <text x="196" y="422" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">岸</text>
+      <text x="434" y="322" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">高架桥</text>
+      <text x="620" y="326" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">天文塔</text>
+      <text x="492" y="470" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">钟楼</text>
+      <text x="680" y="454" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">决战</text>
+      <text x="680" y="476" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">庭院</text>
+      <text x="820" y="448" fill="#111318" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle">石像</text>
+      <text x="820" y="470" fill="#111318" font-family="Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle">防线</text>
+      <text x="674" y="592" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">礼堂</text>
+      <text x="674" y="614" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">决战</text>
+      <text x="330" y="612" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">密道</text>
+      <text x="330" y="634" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">出口</text>
+      <text x="136" y="612" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">船屋</text>
+      <text x="510" y="552" fill="#111318" font-family="Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle">坍塌</text>
+      <text x="510" y="572" fill="#111318" font-family="Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle">楼梯</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no,width=device-width,height=device-height" />
+    <title>State.io Clean</title>
+    <link rel="stylesheet" href="main.css" />
+    <style>
+      html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: #000; touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; }
+      #game-root, #game-canvas { position: absolute; inset: 0; width: 100%; height: 100%; touch-action: none; }
+    </style>
+  </head>
+  <body>
+    <div id="game-root"><canvas id="game-canvas"></canvas></div>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function () {};
+      window.__diffbus = { ready: true, loaded: 0, params: {} };
+
+      (() => {
+        let forwarding = false;
+        function pointFromEvent(event) {
+          const touch = event.changedTouches && event.changedTouches[0];
+          return { x: touch ? touch.clientX : event.clientX, y: touch ? touch.clientY : event.clientY };
+        }
+        function forwardHtmlButton(event) {
+          if (forwarding) return;
+          const point = pointFromEvent(event);
+          let button = null;
+          for (const candidate of document.querySelectorAll("button")) {
+            if (candidate.disabled) continue;
+            const rect = candidate.getBoundingClientRect();
+            const inside = point.x >= rect.left && point.x <= rect.right && point.y >= rect.top && point.y <= rect.bottom;
+            if (inside) {
+              button = candidate;
+              break;
+            }
+          }
+          if (!button) return;
+          event.preventDefault();
+          event.stopImmediatePropagation();
+          forwarding = true;
+          button.click();
+          window.setTimeout(() => { forwarding = false; }, 0);
+        }
+        document.addEventListener("pointerup", forwardHtmlButton, true);
+        document.addEventListener("mouseup", forwardHtmlButton, true);
+        document.addEventListener("touchend", forwardHtmlButton, true);
+      })();
+
+      (() => {
+        function prepareCanvasInput() {
+          const canvas = document.querySelector("#game-canvas");
+          if (!canvas || canvas.dataset.inputPrepared) return;
+          canvas.dataset.inputPrepared = "true";
+          canvas.style.touchAction = "none";
+          canvas.style.userSelect = "none";
+          canvas.addEventListener("pointerdown", (event) => {
+            canvas.focus?.();
+            if (canvas.setPointerCapture) {
+              try { canvas.setPointerCapture(event.pointerId); } catch {}
+            }
+          });
+          canvas.addEventListener("pointerup", (event) => {
+            if (canvas.releasePointerCapture) {
+              try { canvas.releasePointerCapture(event.pointerId); } catch {}
+            }
+          });
+        }
+        window.addEventListener("DOMContentLoaded", prepareCanvasInput);
+        new MutationObserver(prepareCanvasInput).observe(document.documentElement, { childList: true, subtree: true });
+      })();
+    </script>
+    <script defer src="main.clean.js"></script>
+  </body>
+</html>

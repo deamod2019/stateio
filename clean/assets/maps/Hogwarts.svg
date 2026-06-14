@@ -1,0 +1,155 @@
+<svg width="1000" height="720" viewBox="0 0 1000 720" fill="none" style="background:#233B2E" xmlns="http://www.w3.org/2000/svg">
+  <g id="Hogwarts">
+    <g id="Stage1">
+      <g id="HOG_Honeydukes">
+        <path id="HOG_Honeydukes_2" fill-rule="evenodd" clip-rule="evenodd" d="M90 20L184 20L184 90L80 90Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_15"><circle id="Centre_Honeydukes" cx="137" cy="56" r="22" fill="white"/></g>
+      </g>
+      <g id="HOG_DervishAndBanges">
+        <path id="HOG_DervishAndBanges_2" fill-rule="evenodd" clip-rule="evenodd" d="M184 20L278 20L278 90L184 90Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_16"><circle id="Centre_DervishAndBanges" cx="231" cy="56" r="22" fill="white"/></g>
+      </g>
+      <g id="HOG_Spintwitches">
+        <path id="HOG_Spintwitches_2" fill-rule="evenodd" clip-rule="evenodd" d="M278 20L372 20L372 90L278 90Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_17"><circle id="Centre_Spintwitches" cx="325" cy="56" r="22" fill="white"/></g>
+      </g>
+      <g id="HOG_GladragsWizardwear">
+        <path id="HOG_GladragsWizardwear_2" fill-rule="evenodd" clip-rule="evenodd" d="M372 20L466 20L466 90L372 90Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_18"><circle id="Centre_GladragsWizardwear" cx="419" cy="56" r="22" fill="white"/></g>
+      </g>
+      <g id="HOG_ThreeBroomsticks">
+        <path id="HOG_ThreeBroomsticks_2" fill-rule="evenodd" clip-rule="evenodd" d="M466 20L560 20L560 90L466 90Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_19"><circle id="Centre_ThreeBroomsticks" cx="513" cy="56" r="22" fill="white"/></g>
+      </g>
+      <g id="HOG_QuidditchPitch">
+        <path id="HOG_QuidditchPitch_2" fill-rule="evenodd" clip-rule="evenodd" d="M80 90L310 90L330 240L90 260L60 170Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_1"><circle id="Centre_QuidditchPitch" cx="196" cy="170" r="24" fill="white"/></g>
+      </g>
+      <g id="HOG_NorthLawn">
+        <path id="HOG_NorthLawn_2" fill-rule="evenodd" clip-rule="evenodd" d="M310 90L560 90L550 240L330 240Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_2"><circle id="Centre_NorthLawn" cx="440" cy="166" r="24" fill="white"/></g>
+      </g>
+      <g id="HOG_HagridHut">
+        <path id="HOG_HagridHut_2" fill-rule="evenodd" clip-rule="evenodd" d="M560 90L740 90L730 240L550 240Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_3"><circle id="Centre_HagridHut" cx="646" cy="166" r="24" fill="white"/></g>
+      </g>
+      <g id="HOG_ForbiddenForest">
+        <path id="HOG_ForbiddenForest_2" fill-rule="evenodd" clip-rule="evenodd" d="M740 90L960 110L960 660L820 660L760 480L730 240Z" fill="#FF634D" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_4"><circle id="Centre_ForbiddenForest" cx="872" cy="356" r="25" fill="white"/></g>
+      </g>
+      <g id="HOG_BlackLake">
+        <path id="HOG_BlackLake_2" fill-rule="evenodd" clip-rule="evenodd" d="M90 260L330 240L410 360L390 520L260 660L80 660L60 430Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_5"><circle id="Centre_BlackLake" cx="236" cy="454" r="25" fill="white"/></g>
+      </g>
+      <g id="HOG_GryffindorTower">
+        <path id="HOG_GryffindorTower_2" fill-rule="evenodd" clip-rule="evenodd" d="M410 240L550 240L560 360L430 380L410 360Z" fill="#74BCFF" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_6"><circle id="Centre_GryffindorTower" cx="486" cy="306" r="24" fill="white"/></g>
+      </g>
+      <g id="HOG_HogwartsCastle">
+        <path id="HOG_HogwartsCastle_2" fill-rule="evenodd" clip-rule="evenodd" d="M550 240L640 240L650 330L640 430L560 360Z" fill="#74BCFF" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_7"><circle id="Centre_HogwartsCastle" cx="602" cy="330" r="27" fill="white"/></g>
+      </g>
+      <g id="HOG_RoomOfRequirement">
+        <path id="HOG_RoomOfRequirement_2" fill-rule="evenodd" clip-rule="evenodd" d="M640 240L730 240L760 360L690 380L650 330Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_14"><circle id="Centre_RoomOfRequirement" cx="704" cy="312" r="23" fill="white"/></g>
+      </g>
+      <g id="HOG_WhompingWillow">
+        <path id="HOG_WhompingWillow_2" fill-rule="evenodd" clip-rule="evenodd" d="M760 360L820 360L820 480L720 480L640 430Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_8"><circle id="Centre_WhompingWillow" cx="756" cy="424" r="24" fill="white"/></g>
+      </g>
+      <g id="HOG_GrandStaircase">
+        <path id="HOG_GrandStaircase_2" fill-rule="evenodd" clip-rule="evenodd" d="M410 360L430 380L560 360L640 430L570 520L390 520Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_9"><circle id="Centre_GrandStaircase" cx="500" cy="450" r="25" fill="white"/></g>
+      </g>
+      <g id="HOG_Greenhouses">
+        <path id="HOG_Greenhouses_2" fill-rule="evenodd" clip-rule="evenodd" d="M720 480L820 480L820 590L700 590L640 520Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_10"><circle id="Centre_Greenhouses" cx="752" cy="532" r="23" fill="white"/></g>
+      </g>
+      <g id="HOG_Boathouse">
+        <path id="HOG_Boathouse_2" fill-rule="evenodd" clip-rule="evenodd" d="M570 520L640 520L700 590L650 660L520 640Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_11"><circle id="Centre_Boathouse" cx="612" cy="588" r="22" fill="white"/></g>
+      </g>
+      <g id="HOG_GreatHall">
+        <path id="HOG_GreatHall_2" fill-rule="evenodd" clip-rule="evenodd" d="M390 520L570 520L520 640L380 660Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_12"><circle id="Centre_GreatHall" cx="470" cy="588" r="25" fill="white"/></g>
+      </g>
+      <g id="HOG_Dungeon">
+        <path id="HOG_Dungeon_2" fill-rule="evenodd" clip-rule="evenodd" d="M260 660L380 660L330 710L220 710Z" fill="#FF634D" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+        <g id="Centre_13"><circle id="Centre_Dungeon" cx="300" cy="684" r="22" fill="white"/></g>
+      </g>
+    </g>
+
+    <g id="HogwartsVisuals" pointer-events="none">
+      <rect width="1000" height="720" fill="#102032" opacity="0.08"/>
+      <path d="M90 260L330 240L410 360L390 520L260 660L80 660L60 430Z" fill="#163F5C" stroke="#8AD6FF" stroke-width="6" opacity="0.76"/>
+      <path d="M112 376C190 338 304 344 378 390M104 480C184 442 300 450 376 500M126 586C190 620 282 620 348 570" stroke="#8AD6FF" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+      <path d="M410 240L486 172L550 240M550 240L646 164L730 240" fill="#516189" stroke="#E8DFCC" stroke-width="3"/>
+      <path d="M486 172V142M646 164V134" stroke="#F6D684" stroke-width="4" stroke-linecap="round"/>
+      <path d="M486 142L524 154L486 172ZM646 134L684 146L646 164Z" fill="#FF634D" stroke="#E8DFCC" stroke-width="2"/>
+      <path d="M598 300H698V376H598Z" fill="#6E7279" stroke="#E8DFCC" stroke-width="3"/>
+      <path d="M616 300V376M650 300V376M684 300V376" stroke="#F6D684" stroke-width="4"/>
+      <path d="M464 386C504 420 530 486 486 526M486 382C526 422 550 488 506 530" stroke="#F6D684" stroke-width="5" stroke-linecap="round" opacity="0.72"/>
+      <path d="M820 132L850 70L880 132M842 260L882 176L922 260M828 448L874 350L920 448M836 610L884 510L932 610" fill="#354D36" stroke="#E8DFCC" stroke-width="3" opacity="0.9"/>
+      <path d="M610 144C634 128 660 128 684 144L680 188H614Z" fill="#8B6B4F" stroke="#E8DFCC" stroke-width="3"/>
+      <path d="M628 130L648 104L668 130" fill="#6B4C3B" stroke="#E8DFCC" stroke-width="3"/>
+      <path d="M736 378C752 406 752 448 736 478M764 380C742 410 742 450 764 480" stroke="#5B3E2C" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+      <ellipse cx="196" cy="170" rx="110" ry="64" fill="none" stroke="#F6D684" stroke-width="6" opacity="0.8"/>
+      <path d="M122 170H270M158 124V216M236 124V216" stroke="#F6D684" stroke-width="4" opacity="0.75"/>
+      <path d="M586 596L638 580L664 606L638 636L574 646L548 620Z" fill="#7D6347" stroke="#E8DFCC" stroke-width="3"/>
+      <path d="M282 708C300 676 318 676 336 708" stroke="#442F3F" stroke-width="8" stroke-linecap="round" opacity="0.75"/>
+      <path d="M112 58H138V86H112Z M202 54H228V86H202Z M296 58H322V86H296Z M390 54H416V86H390Z M484 58H510V86H484Z" fill="#7D6347" stroke="#E8DFCC" stroke-width="2"/>
+      <path d="M108 58L125 40L142 58M198 54L215 36L232 54M292 58L309 40L326 58M386 54L403 36L420 54M480 58L497 40L514 58" fill="#8B3F35" stroke="#E8DFCC" stroke-width="2"/>
+      <text x="64" y="50" fill="#F4EEDF" font-family="Arial, sans-serif" font-size="24" font-weight="700">北</text>
+      <path d="M76 84V24M76 24L58 54M76 24L94 54" stroke="#F4EEDF" stroke-width="4" stroke-linecap="round"/>
+
+      <circle cx="137" cy="56" r="29" fill="white" opacity="0.96"/>
+      <circle cx="231" cy="56" r="29" fill="white" opacity="0.96"/>
+      <circle cx="325" cy="56" r="29" fill="white" opacity="0.96"/>
+      <circle cx="419" cy="56" r="29" fill="white" opacity="0.96"/>
+      <circle cx="513" cy="56" r="29" fill="white" opacity="0.96"/>
+      <circle cx="196" cy="170" r="32" fill="white" opacity="0.96"/>
+      <circle cx="440" cy="166" r="32" fill="white" opacity="0.96"/>
+      <circle cx="646" cy="166" r="32" fill="white" opacity="0.96"/>
+      <circle cx="872" cy="356" r="34" fill="white" opacity="0.96"/>
+      <circle cx="236" cy="454" r="34" fill="white" opacity="0.96"/>
+      <circle cx="486" cy="306" r="32" fill="white" opacity="0.96"/>
+      <circle cx="602" cy="330" r="36" fill="white" opacity="0.96"/>
+      <circle cx="704" cy="312" r="32" fill="white" opacity="0.96"/>
+      <circle cx="756" cy="424" r="32" fill="white" opacity="0.96"/>
+      <circle cx="500" cy="450" r="34" fill="white" opacity="0.96"/>
+      <circle cx="752" cy="532" r="32" fill="white" opacity="0.96"/>
+      <circle cx="612" cy="588" r="30" fill="white" opacity="0.96"/>
+      <circle cx="470" cy="588" r="34" fill="white" opacity="0.96"/>
+      <circle cx="300" cy="684" r="30" fill="white" opacity="0.96"/>
+
+      <text x="137" y="49" fill="#111318" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">蜂蜜</text>
+      <text x="137" y="68" fill="#111318" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">公爵</text>
+      <text x="231" y="49" fill="#111318" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">德维班吉</text>
+      <text x="231" y="68" fill="#111318" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">装备店</text>
+      <text x="325" y="49" fill="#111318" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">斯宾</text>
+      <text x="325" y="68" fill="#111318" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">魁奇</text>
+      <text x="419" y="49" fill="#111318" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">风雅牌</text>
+      <text x="419" y="68" fill="#111318" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">服装店</text>
+      <text x="513" y="49" fill="#111318" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">三把</text>
+      <text x="513" y="68" fill="#111318" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">扫帚</text>
+      <text x="196" y="178" fill="#111318" font-family="Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">魁地奇球场</text>
+      <text x="440" y="174" fill="#111318" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">北草坪</text>
+      <text x="646" y="158" fill="#111318" font-family="Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">海格</text>
+      <text x="646" y="182" fill="#111318" font-family="Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">小屋</text>
+      <text x="872" y="364" fill="#111318" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">禁林</text>
+      <text x="236" y="462" fill="#111318" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">黑湖</text>
+      <text x="486" y="314" fill="#111318" font-family="Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">格兰芬多塔</text>
+      <text x="602" y="322" fill="#111318" font-family="Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">霍格沃茨</text>
+      <text x="602" y="346" fill="#111318" font-family="Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">城堡</text>
+      <text x="704" y="304" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">有求</text>
+      <text x="704" y="326" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">必应屋</text>
+      <text x="756" y="432" fill="#111318" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">打人柳</text>
+      <text x="500" y="442" fill="#111318" font-family="Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">活动</text>
+      <text x="500" y="466" fill="#111318" font-family="Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">楼梯</text>
+      <text x="752" y="540" fill="#111318" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">温室</text>
+      <text x="612" y="596" fill="#111318" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">船屋</text>
+      <text x="470" y="596" fill="#111318" font-family="Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">礼堂</text>
+      <text x="300" y="692" fill="#111318" font-family="Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">地牢</text>
+    </g>
+  </g>
+</svg>

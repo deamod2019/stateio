@@ -1,0 +1,117 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#102032"/>
+  <style>
+    .title { fill: #F4EEDF; font: 700 38px Arial, sans-serif; }
+    .sub { fill: #CBD4E0; font: 20px Arial, sans-serif; }
+    .region { stroke: #E8DFCC; stroke-width: 5; stroke-linejoin: round; }
+    .blue { fill: #74BCFF; }
+    .red { fill: #FF634D; }
+    .neutral { fill: #A2A2A2; }
+    .route { stroke: #F4EEDF; stroke-width: 6; stroke-linecap: round; opacity: 0.72; }
+    .route2 { stroke: #74BCFF; stroke-width: 6; stroke-linecap: round; opacity: 0.85; stroke-dasharray: 12 12; }
+    .label { fill: #111318; font: 700 23px Arial, sans-serif; text-anchor: middle; }
+    .small { fill: #111318; font: 700 21px Arial, sans-serif; text-anchor: middle; }
+    .note { fill: #E8DFCC; font: 20px Arial, sans-serif; }
+  </style>
+
+  <text class="title" x="54" y="62">霍格沃茨校地领地战地图</text>
+  <text class="sub" x="54" y="96">不相交分区版：每个地块只占自己的几何范围；黑湖、城堡、禁林、船屋之间不再互相覆盖。</text>
+
+  <g transform="translate(150 118)">
+    <path d="M50 70H970V710H50Z" fill="#233B2E"/>
+
+    <line class="route" x1="196" y1="170" x2="440" y2="166"/>
+    <line class="route" x1="440" y1="166" x2="486" y2="306"/>
+    <line class="route" x1="486" y1="306" x2="500" y2="450"/>
+    <line class="route" x1="500" y1="450" x2="470" y2="588"/>
+    <line class="route" x1="470" y1="588" x2="612" y2="588"/>
+    <line class="route" x1="612" y1="588" x2="236" y2="454"/>
+    <line class="route" x1="602" y1="330" x2="704" y2="312"/>
+    <line class="route" x1="704" y1="312" x2="756" y2="424"/>
+    <line class="route" x1="756" y1="424" x2="752" y2="532"/>
+    <line class="route" x1="646" y1="166" x2="872" y2="356"/>
+    <line class="route" x1="752" y1="532" x2="872" y2="356"/>
+    <line class="route2" x1="500" y1="450" x2="646" y2="328"/>
+    <line class="route2" x1="646" y1="328" x2="752" y2="532"/>
+
+    <path class="region neutral" d="M80 90L310 90L330 240L90 260L60 170Z"/>
+    <path class="region neutral" d="M310 90L560 90L550 240L330 240Z"/>
+    <path class="region neutral" d="M560 90L740 90L730 240L550 240Z"/>
+    <path class="region red" d="M740 90L960 110L960 660L820 660L760 480L730 240Z"/>
+    <path class="region neutral" d="M90 260L330 240L410 360L390 520L260 660L80 660L60 430Z"/>
+    <path class="region blue" d="M410 240L550 240L560 360L430 380L410 360Z"/>
+    <path class="region blue" d="M550 240L640 240L650 330L640 430L560 360Z"/>
+    <path class="region neutral" d="M640 240L730 240L760 360L690 380L650 330Z"/>
+    <path class="region neutral" d="M760 360L820 360L820 480L720 480L640 430Z"/>
+    <path class="region neutral" d="M410 360L430 380L560 360L640 430L570 520L390 520Z"/>
+    <path class="region neutral" d="M720 480L820 480L820 590L700 590L640 520Z"/>
+    <path class="region neutral" d="M570 520L640 520L700 590L650 660L520 640Z"/>
+    <path class="region neutral" d="M390 520L570 520L520 640L380 660Z"/>
+    <path class="region red" d="M260 660L380 660L330 710L220 710Z"/>
+
+    <path d="M90 260L330 240L410 360L390 520L260 660L80 660L60 430Z" fill="#163F5C" stroke="#8AD6FF" stroke-width="6" opacity="0.76"/>
+    <path d="M112 376C190 338 304 344 378 390M104 480C184 442 300 450 376 500M126 586C190 620 282 620 348 570" stroke="#8AD6FF" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+    <path d="M410 240L486 172L550 240M550 240L646 164L730 240" fill="#516189" stroke="#E8DFCC" stroke-width="3"/>
+    <path d="M486 172V142M646 164V134" stroke="#F6D684" stroke-width="4" stroke-linecap="round"/>
+    <path d="M486 142L524 154L486 172ZM646 134L684 146L646 164Z" fill="#FF634D" stroke="#E8DFCC" stroke-width="2"/>
+    <path d="M598 300H698V376H598Z" fill="#6E7279" stroke="#E8DFCC" stroke-width="3"/>
+    <path d="M616 300V376M650 300V376M684 300V376" stroke="#F6D684" stroke-width="4"/>
+    <path d="M464 386C504 420 530 486 486 526M486 382C526 422 550 488 506 530" stroke="#F6D684" stroke-width="5" stroke-linecap="round" opacity="0.72"/>
+    <path d="M820 132L850 70L880 132M842 260L882 176L922 260M828 448L874 350L920 448M836 610L884 510L932 610" fill="#354D36" stroke="#E8DFCC" stroke-width="3" opacity="0.9"/>
+    <path d="M610 144C634 128 660 128 684 144L680 188H614Z" fill="#8B6B4F" stroke="#E8DFCC" stroke-width="3"/>
+    <path d="M628 130L648 104L668 130" fill="#6B4C3B" stroke="#E8DFCC" stroke-width="3"/>
+    <path d="M736 378C752 406 752 448 736 478M764 380C742 410 742 450 764 480" stroke="#5B3E2C" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+    <ellipse cx="196" cy="170" rx="110" ry="64" fill="none" stroke="#F6D684" stroke-width="6" opacity="0.8"/>
+    <path d="M122 170H270M158 124V216M236 124V216" stroke="#F6D684" stroke-width="4" opacity="0.75"/>
+    <path d="M586 596L638 580L664 606L638 636L574 646L548 620Z" fill="#7D6347" stroke="#E8DFCC" stroke-width="3"/>
+    <path d="M282 708C300 676 318 676 336 708" stroke="#442F3F" stroke-width="8" stroke-linecap="round" opacity="0.75"/>
+
+    <circle cx="196" cy="170" r="32" fill="white" opacity="0.96"/>
+    <circle cx="440" cy="166" r="32" fill="white" opacity="0.96"/>
+    <circle cx="646" cy="166" r="32" fill="white" opacity="0.96"/>
+    <circle cx="872" cy="356" r="34" fill="white" opacity="0.96"/>
+    <circle cx="236" cy="454" r="34" fill="white" opacity="0.96"/>
+    <circle cx="486" cy="306" r="32" fill="white" opacity="0.96"/>
+    <circle cx="602" cy="330" r="36" fill="white" opacity="0.96"/>
+    <circle cx="704" cy="312" r="32" fill="white" opacity="0.96"/>
+    <circle cx="756" cy="424" r="32" fill="white" opacity="0.96"/>
+    <circle cx="500" cy="450" r="34" fill="white" opacity="0.96"/>
+    <circle cx="752" cy="532" r="32" fill="white" opacity="0.96"/>
+    <circle cx="612" cy="588" r="30" fill="white" opacity="0.96"/>
+    <circle cx="470" cy="588" r="34" fill="white" opacity="0.96"/>
+    <circle cx="300" cy="684" r="30" fill="white" opacity="0.96"/>
+
+    <text class="label" x="196" y="178">魁地奇球场</text>
+    <text class="label" x="440" y="174">北草坪</text>
+    <text class="small" x="646" y="158">海格</text>
+    <text class="small" x="646" y="182">小屋</text>
+    <text class="label" x="872" y="364">禁林</text>
+    <text class="label" x="236" y="462">黑湖</text>
+    <text class="small" x="486" y="314">格兰芬多塔</text>
+    <text class="small" x="602" y="322">霍格沃茨</text>
+    <text class="small" x="602" y="346">城堡</text>
+    <text class="small" x="704" y="304">有求</text>
+    <text class="small" x="704" y="328">必应屋</text>
+    <text class="label" x="756" y="432">打人柳</text>
+    <text class="small" x="500" y="442">活动</text>
+    <text class="small" x="500" y="466">楼梯</text>
+    <text class="label" x="752" y="540">温室</text>
+    <text class="small" x="612" y="596">船屋</text>
+    <text class="label" x="470" y="596">礼堂</text>
+    <text class="small" x="300" y="692">地牢</text>
+
+    <text x="36" y="36" fill="#F4EEDF" font-family="Arial, sans-serif" font-size="24" font-weight="700">北</text>
+    <path d="M48 70V10M48 10L30 40M48 10L66 40" stroke="#F4EEDF" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(70 835)">
+    <circle cx="0" cy="0" r="12" fill="#74BCFF"/>
+    <text class="note" x="24" y="7">玩家起点</text>
+    <circle cx="160" cy="0" r="12" fill="#FF634D"/>
+    <text class="note" x="184" y="7">敌方压力源</text>
+    <line class="route" x1="390" y1="0" x2="460" y2="0"/>
+    <text class="note" x="480" y="7">常规路线</text>
+    <line class="route2" x1="650" y1="0" x2="720" y2="0"/>
+    <text class="note" x="740" y="7">捷径 / 节奏线</text>
+  </g>
+</svg>

@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no,width=device-width,height=device-height"
+    />
+    <title>State.io</title>
+    <link rel="stylesheet" href="main.css" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #000;
+        touch-action: none;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-touch-callout: none;
+      }
+
+      #game-root,
+      #game-canvas {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        touch-action: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game-root"><canvas id="game-canvas"></canvas></div>
+    <script>
+      const noop = () => {};
+      const resolved = (value) => Promise.resolve(value);
+
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || noop;
+
+      window.YaGames = {
+        init() {
+          return resolved({
+            adv: {
+              showFullscreenAdv({ callbacks } = {}) {
+                callbacks?.onClose?.();
+                return resolved();
+              },
+              showRewardedVideo({ callbacks } = {}) {
+                callbacks?.onOpen?.();
+                callbacks?.onRewarded?.();
+                callbacks?.onClose?.();
+                return resolved();
+              },
+            },
+            features: { LoadingAPI: { ready: noop } },
+            feedback: { canReview: () => resolved({ value: false }), requestReview: () => resolved({ feedbackSent: false }) },
+            getLeaderboards: () =>
+              resolved({
+                setLeaderboardScore: () => resolved(),
+                getLeaderboardPlayerEntry: () => resolved(null),
+                getLeaderboardEntries: () => resolved({ entries: [] }),
+              }),
+            getPayments: () =>
+              resolved({
+                getCatalog: () => resolved([]),
+                getPurchases: () => resolved([]),
+                purchase: () => resolved(null),
+                consumePurchase: () => resolved(),
+              }),
+            getPlayer: () =>
+              resolved({
+                getMode: () => "lite",
+                isAuthorized: () => false,
+                getUniqueID: () => "local-player",
+                getName: () => "Player",
+                getPhoto: () => "",
+                getData: () => resolved({}),
+                setData: () => resolved(),
+                getStats: () => resolved({}),
+                setStats: () => resolved(),
+                incrementStats: () => resolved({}),
+              }),
+            environment: { i18n: { lang: "zh", tld: "com" }, app: { id: "191972" }, browser: { lang: "zh" } },
+            deviceInfo: { type: "desktop", isMobile: () => false, isDesktop: () => true },
+            screen: { fullscreen: { request: noop, exit: noop } },
+          });
+        },
+      };
+
+      (function (bus) {
+        let loaded = 0;
+        Object.defineProperty(bus, "loaded", {
+          set(value) {
+            loaded = value;
+          },
+          get() {
+            return loaded;
+          },
+        });
+        bus.onLoaded = function (params) {
+          bus.ready = true;
+          while (bus.cbc.length) {
+            const callback = bus.cbc.pop();
+            callback && callback(params);
+          }
+        };
+        window.YaGames.init().then((yasdk) => {
+          bus.params = bus.params || {};
+          bus.params.yasdk = yasdk;
+          bus.onLoaded(yasdk);
+        });
+      })((window.__diffbus = { ready: false, cbc: [], params: undefined }));
+
+      (() => {
+        let forwarding = false;
+
+        function pointFromEvent(event) {
+          const touch = event.changedTouches && event.changedTouches[0];
+          return {
+            x: touch ? touch.clientX : event.clientX,
+            y: touch ? touch.clientY : event.clientY,
+          };
+        }
+
+        function forwardStartButton(event) {
+          if (forwarding) return;
+
+          const button = document.querySelector(".start-button");
+          if (!button || button.disabled) return;
+
+          const point = pointFromEvent(event);
+          const rect = button.getBoundingClientRect();
+          const inside =
+            point.x >= rect.left &&
+            point.x <= rect.right &&
+            point.y >= rect.top &&
+            point.y <= rect.bottom;
+
+          if (!inside) return;
+
+          event.preventDefault();
+          event.stopImmediatePropagation();
+          forwarding = true;
+          button.click();
+          window.setTimeout(() => {
+            forwarding = false;
+          }, 0);
+        }
+
+        document.addEventListener("pointerup", forwardStartButton, true);
+        document.addEventListener("mouseup", forwardStartButton, true);
+        document.addEventListener("touchend", forwardStartButton, true);
+      })();
+
+      (() => {
+        function prepareCanvasInput() {
+          const canvas = document.querySelector("#game-canvas");
+          if (!canvas || canvas.dataset.inputPrepared) return;
+
+          canvas.dataset.inputPrepared = "true";
+          canvas.style.touchAction = "none";
+          canvas.style.userSelect = "none";
+          canvas.addEventListener("pointerdown", (event) => {
+            canvas.focus?.();
+            if (canvas.setPointerCapture) {
+              try {
+                canvas.setPointerCapture(event.pointerId);
+              } catch {}
+            }
+          });
+          canvas.addEventListener("pointerup", (event) => {
+            if (canvas.releasePointerCapture) {
+              try {
+                canvas.releasePointerCapture(event.pointerId);
+              } catch {}
+            }
+          });
+        }
+
+        window.addEventListener("DOMContentLoaded", prepareCanvasInput);
+        new MutationObserver(prepareCanvasInput).observe(document.documentElement, {
+          childList: true,
+          subtree: true,
+        });
+      })();
+
+      (() => {
+        const replacements = new Map([
+          ["Tap to continue", "点击继续"],
+          ["Log in to compete with others and guaranteed to save progress.", "登录后可与其他玩家竞争，并确保保存进度。"],
+          ["Login", "登录"],
+          ["GO!", "出发！"],
+          ["ALL STAGES COMPLETED!", "全部阶段已完成！"],
+        ]);
+
+        function translateNodeText(node) {
+          const next = replacements.get(node.nodeValue.trim());
+          if (next) node.nodeValue = next;
+        }
+
+        function translateVisibleText() {
+          const root = document.querySelector("#game-ui") || document.body;
+          const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+          let node = walker.nextNode();
+
+          while (node) {
+            translateNodeText(node);
+            node = walker.nextNode();
+          }
+        }
+
+        const observer = new MutationObserver(translateVisibleText);
+        window.addEventListener("DOMContentLoaded", () => {
+          translateVisibleText();
+          observer.observe(document.body, { childList: true, subtree: true, characterData: true });
+        });
+      })();
+    </script>
+    <script defer src="main.js"></script>
+  </body>
+</html>

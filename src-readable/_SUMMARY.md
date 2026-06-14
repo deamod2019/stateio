@@ -1,0 +1,659 @@
+# Webpack Bundle — 606 Modules
+
+| Metric | Count |
+|--------|-------|
+| Total modules | 606 |
+| With named exports | 347 |
+| Barrel / re‑export | 259 |
+| Unique class names | 452 |
+
+## Ads / Monetization
+
+- **AdAction** → `45301_AdAction.js`
+- **AdEvents** → `88893_AdEvents.js`
+- **AdManagerBase** → `73018_AdManagerBase.js`
+- **AdManagerYandex** → `65021_AdManagerYandex.js`
+- **AdResponse** → `40011_AdResponse.js`
+- **AdsModule** → `10556_AdsModule.js`
+- **AdsModuleYandex** → `9045_AdsModuleYandex.js`
+
+## Analytics
+
+- **AnalyticsModule** → `74981_AnalyticsModule.js`
+- **AnalyticsTracker** → `53373_AnalyticsTracker.js`
+- **FirebaseAnalyticsProvider** → `23004_FirebaseAnalyticsProvider.js`
+- **GTAGAnalyticsProvider** → `97907_GTAGAnalyticsProvider.js`
+
+## Audio
+
+- **AudioModel, COOKIE_KEY, MUTE_MUSIC, MUTE_SOUNDS** → `31267_AudioModel.js`
+- **AudioModule** → `75564_AudioModule.js`
+- **PlayerType** → `36596_PlayerType.js`
+- **PlayMusicAction** → `74886_PlayMusicAction.js`
+- **PlaySoundAction** → `70919_PlaySoundAction.js`
+- **PlayWithOpponentAction** → `49295_PlayWithOpponentAction.js`
+- **PlayWithOpponentActionSIO** → `65897_PlayWithOpponentActionSIO.js`
+
+## Bot / AI
+
+- **BotCalculationLogic, Type, Owner** → `59474_BotCalculationLogic.js`
+- **BotLogic** → `3565_BotLogic.js`
+- **BotPreset6FinalAgressive, BotPreset5Final, BotPreset4Hard, BotPreset3UpperMedium, BotPreset2Medium, BotPreset1Easy, BotPreset0Vegetable** → `13866_BotPreset6FinalAgressive.js`
+- **BotsSystem** → `72063_BotsSystem.js`
+- **BotUtility** → `35081_BotUtility.js`
+- **CommandsGenerator** → `77875_CommandsGenerator.js`
+
+## Core Game
+
+- **AppModel** → `20383_AppModel.js`
+- **AppModule** → `60320_AppModule.js`
+- **BootAction** → `19305_BootAction.js`
+- **CoreGameModule** → `59201_CoreGameModule.js`
+- **CoreModule** → `11370_CoreModule.js`
+- **GameConstants** → `82496_GameConstants.js`
+- **GameEvents** → `47283_GameEvents.js`
+- **GameFlowModule** → `44367_GameFlowModule.js`
+- **GameModel, LEVELS_PREDEFINED, DEFAULT_CTX_DATA** → `94572_GameModel.js`
+- **GameModule** → `55937_GameModule.js`
+- **GameModuleBase** → `25871_GameModuleBase.js`
+- **GameModuleYandex** → `89286_GameModuleYandex.js`
+- **GamePlayScreen** → `95622_GamePlayScreen.js`
+- **GamePlaySystem, GamePlayEvent** → `93972_GamePlaySystem.js`
+- **GameState** → `65370_GameState.js`
+- **GameUIModule** → `37532_GameUIModule.js`
+
+## Economy / Boost
+
+- **Booster, BoosterType** → `56721_Booster.js`
+- **Boosters** → `67884_Boosters.js`
+- **Building, ACTIVE_TAG** → `26511_Building.js`
+- **BuildingItem** → `83719_BuildingItem.js`
+- **CoinsField** → `46766_CoinsField.js`
+- **CoinsIndicator** → `32715_CoinsIndicator.js`
+- **GiftItem** → `79147_GiftItem.js`
+- **GiftPopup** → `56184_GiftPopup.js`
+- **GiftTypeReward** → `41714_GiftTypeReward.js`
+- **ShopButton** → `82978_ShopButton.js`
+- **ShopItem** → `76282_ShopItem.js`
+- **ShopMenu** → `83643_ShopMenu.js`
+- **ShopPreview** → `44698_ShopPreview.js`
+- **ShopScreen** → `76742_ShopScreen.js`
+- **ShopTabHeader** → `37079_ShopTabHeader.js`
+
+## Fighter / Combat
+
+- **ArrowsMediator** → `15006_ArrowsMediator.js`
+- **ArrowsView** → `80219_ArrowsView.js`
+- **ArrowView** → `10910_ArrowView.js`
+- **BattleResults** → `62482_BattleResults.js`
+- **BattleResultsPopup** → `78199_BattleResultsPopup.js`
+- **BattleResultsPopupAction** → `10379_BattleResultsPopupAction.js`
+- **BurstWaveAction** → `46044_BurstWaveAction.js`
+- **CapitalView** → `53351_CapitalView.js`
+- **Capturing** → `10065_Capturing.js`
+- **CapturingAnimated** → `73097_CapturingAnimated.js`
+- **Fighter, TAG, TAG_DIED, DEFAULT_SIZE, NORMAL_SPEED, DISTANCE_TOLERANCE** → `46697_Fighter.js`
+- **FighterDeathEffectAction** → `71981_FighterDeathEffectAction.js`
+- **FighterGroup** → `72257_FighterGroup.js`
+- **FighterGroupsSystem** → `85765_FighterGroupsSystem.js`
+- **FighterItem** → `30851_FighterItem.js`
+- **FighterMovementSystem, FighterEvent** → `99806_FighterMovementSystem.js`
+- **FighterView** → `26463_FighterView.js`
+
+## Framework (MVC)
+
+- **Action** → `8734_Action.js`
+- **Binding** → `44290_Binding.js`
+- **BindingCount** → `23184_BindingCount.js`
+- **BindingInSyntax** → `83366_BindingInSyntax.js`
+- **BindingInWhenOnSyntax** → `99812_BindingInWhenOnSyntax.js`
+- **BindingOnSyntax** → `51811_BindingOnSyntax.js`
+- **BindingToSyntax** → `51860_BindingToSyntax.js`
+- **BindingWhenOnSyntax** → `71325_BindingWhenOnSyntax.js`
+- **BindingWhenSyntax** → `98370_BindingWhenSyntax.js`
+- **Container** → `51389_Container.js`
+- **Mediator** → `42182_Mediator.js`
+- **ScreenContainer** → `6846_ScreenContainer.js`
+- **Screens** → `99836_Screens.js`
+- **ScreenshotAction** → `77754_ScreenshotAction.js`
+- **ScreenShotActionSIO** → `16465_ScreenShotActionSIO.js`
+- **View, ADDED_TO_SCENE, REMOVED_FROM_SCENE** → `25487_View.js`
+
+## Level / Stage
+
+- **DebugLevelPicker** → `11617_DebugLevelPicker.js`
+- **DebugModule** → `14107_DebugModule.js`
+- **DebugPanel** → `64920_DebugPanel.js`
+- **DebugPanelGamePlay** → `11748_DebugPanelGamePlay.js`
+- **DebugPanelNotifications** → `39068_DebugPanelNotifications.js`
+- **DebugPopup** → `60097_DebugPopup.js`
+- **InitAdManagerAction** → `64122_InitAdManagerAction.js`
+- **InitAdManagerYandexAction** → `68047_InitAdManagerYandexAction.js`
+- **InitAudioAction** → `23416_InitAudioAction.js`
+- **InitStageSystem** → `11073_InitStageSystem.js`
+- **LevelCompletedPopupAction** → `87460_LevelCompletedPopupAction.js`
+- **LevelEndAction, TRACK_EVENT** → `61201_LevelEndAction.js`
+- **LevelEndActionSIO** → `24294_LevelEndActionSIO.js`
+- **LevelEndActionSIOYandex** → `7390_LevelEndActionSIOYandex.js`
+- **LevelEndSystem** → `71554_LevelEndSystem.js`
+- **LevelNextAction, TRACK_EVENT, FREE_SOLO_ATTEMPTS** → `10274_LevelNextAction.js`
+- **LevelNextActionSIO** → `15872_LevelNextActionSIO.js`
+- **LevelRestartAction, TRACK_EVENT, SHOW_AD_INTERVAL, LAST_RESTART** → `56403_LevelRestartAction.js`
+- **LevelRestartActionSIO** → `83042_LevelRestartActionSIO.js`
+- **LevelRestartAfterYandexLoginAction** → `70055_LevelRestartAfterYandexLoginAction.js`
+- **LevelStartAction, TRACK_EVENT** → `19474_LevelStartAction.js`
+- **LevelStartActionSIO** → `99629_LevelStartActionSIO.js`
+- **LevelTitle** → `20911_LevelTitle.js`
+- **LoadLevelAction** → `27588_LoadLevelAction.js`
+- **StageEndAction** → `12079_StageEndAction.js`
+
+## Map / State
+
+- **ContinentModel** → `36637_ContinentModel.js`
+- **GenerateMapShapeAction** → `48115_GenerateMapShapeAction.js`
+- **GenerateMapSpriteAction** → `11470_GenerateMapSpriteAction.js`
+- **GenerateShareImageAction** → `45724_GenerateShareImageAction.js`
+- **GroupModel** → `20811_GroupModel.js`
+- **PathHolder** → `85126_PathHolder.js`
+- **PathsGenerationSystem** → `57620_PathsGenerationSystem.js`
+- **StateShapeView** → `91585_StateShapeView.js`
+
+## Other
+
+- **ActiveBuildingsQuery** → `62260_ActiveBuildingsQuery.js`
+- **AllBuildingsQuery** → `9964_AllBuildingsQuery.js`
+- **AsyncContainerModule, ContainerModule** → `33244_AsyncContainerModule.js`
+- **Avatar** → `41595_Avatar.js`
+- **AvatarGroup** → `47702_AvatarGroup.js`
+- **AvatarPlayInGroup** → `71290_AvatarPlayInGroup.js`
+- **BackButton** → `7161_BackButton.js`
+- **BaseScreen** → `49083_BaseScreen.js`
+- **BState** → `45329_BState.js`
+- **CheatsAction** → `85162_CheatsAction.js`
+- **CircleAvatar** → `42970_CircleAvatar.js`
+- **ColorItem** → `92068_ColorItem.js`
+- **ContainerSnapshot** → `85700_ContainerSnapshot.js`
+- **Context** → `95228_Context.js`
+- **Count** → `94872_Count.js`
+- **CreateFPSMeterAction** → `66920_CreateFPSMeterAction.js`
+- **CreateTournamentFormDebug** → `43507_CreateTournamentFormDebug.js`
+- **CrossPromo** → `34453_CrossPromo.js`
+- **CrossPromoComponent** → `49934_CrossPromoComponent.js`
+- **CrossPromoModule** → `60921_CrossPromoModule.js`
+- **DecisionType** → `25583_DecisionType.js`
+- **DestroyFieldAction** → `196_DestroyFieldAction.js`
+- **DisplaySystem** → `88969_DisplaySystem.js`
+- **EndScreenAction** → `35567_EndScreenAction.js`
+- **Engine** → `32492_Engine.js`
+- **EntitySnapshot, Entity** → `63017_EntitySnapshot.js`
+- **EventDispatcher** → `96488_EventDispatcher.js`
+- **ExclamationMarkNotificator** → `5777_ExclamationMarkNotificator.js`
+- **Field** → `26903_Field.js`
+- **FieldMediator** → `40470_FieldMediator.js`
+- **FieldView** → `59310_FieldView.js`
+- **FileDropArea** → `11812_FileDropArea.js`
+- **FilledRects** → `84965_FilledRects.js`
+- **FingerView** → `42854_FingerView.js`
+- **GlobalEventProvider** → `44018_GlobalEventProvider.js`
+- **GlobalEventProviderComponent** → `97949_GlobalEventProviderComponent.js`
+- **Graphics** → `73134_Graphics.js`
+- **Howler, Howl** → `41766_Howler.js`
+- **HTMLUIModule** → `70051_HTMLUIModule.js`
+- **HTTPRequest** → `93668_HTTPRequest.js`
+- **Icon** → `37909_Icon.js`
+- **InputManager** → `83847_InputManager.js`
+- **InputManagerBase** → `81717_InputManagerBase.js`
+- **InputSystem** → `47572_InputSystem.js`
+- **InversifyContext** → `83430_InversifyContext.js`
+- **InviteButton** → `55378_InviteButton.js`
+- **IterativeSystem** → `42724_IterativeSystem.js`
+- **LazyAction** → `37360_LazyAction.js`
+- **LazyServiceIdentifer** → `5744_LazyServiceIdentifer.js`
+- **LeaderBoard** → `14633_LeaderBoard.js`
+- **LeaderBoardInviteItem** → `23862_LeaderBoardInviteItem.js`
+- **LeaderBoardItem** → `90211_LeaderBoardItem.js`
+- **LeaderBoardTabs** → `30326_LeaderBoardTabs.js`
+- **LinkedComponent** → `71644_LinkedComponent.js`
+- **LinkedComponentList** → `33977_LinkedComponentList.js`
+- **Localize** → `70796_Localize.js`
+- **LoginAction** → `15850_LoginAction.js`
+- **Lookup** → `80175_Lookup.js`
+- **LosePopup** → `53841_LosePopup.js`
+- **MainAction** → `57165_MainAction.js`
+- **MetaConfig** → `82713_MetaConfig.js`
+- **Metadata** → `47738_Metadata.js`
+- **MetadataReader** → `51377_MetadataReader.js`
+- **MetadataReader, LazyServiceIdentifer, ContainerModule, AsyncContainerModule, TargetTypeEnum, BindingTypeEnum, BindingScopeEnum, Container, METADATA_KEY** → `86700_MetadataReader.js`
+- **MetaModel** → `36356_MetaModel.js`
+- **MultiplyArrow** → `39811_MultiplyArrow.js`
+- **MultiplyBonus** → `36710_MultiplyBonus.js`
+- **NAFinish** → `33154_NAFinish.js`
+- **NALeave** → `54799_NALeave.js`
+- **NAStart** → `92406_NAStart.js`
+- **NAStartSIO** → `44025_NAStartSIO.js`
+- **NoAdsButton** → `14954_NoAdsButton.js`
+- **NON_CUSTOM_TAG_KEYS, POST_CONSTRUCT, DESIGN_PARAM_TYPES, PARAM_TYPES, TAGGED_PROP, TAGGED, MULTI_INJECT_TAG, INJECT_TAG, OPTIONAL_TAG, UNMANAGED_TAG, NAME_TAG, NAMED_TAG** → `6867_NON_CUSTOM_TAG_KEYS.js`
+- **NoThanksButton** → `86602_NoThanksButton.js`
+- **NotificationAction, IMAGES_CACHE, EMOJI, WIDTH_FULL, HEIGHT_FULL** → `97158_NotificationAction.js`
+- **NotificationsModule** → `70669_NotificationsModule.js`
+- **ODR_BUILD_ORIGIN, IS_ODR_BUILD, GAME_SCRIPT_ORIGIN, CANVAS_ID, CommonEvents** → `37542_ODR_BUILD_ORIGIN.js`
+- **OfflineEarningsPopup** → `96126_OfflineEarningsPopup.js`
+- **PageModel** → `99794_PageModel.js`
+- **ParallelAction** → `45105_ParallelAction.js`
+- **Participants** → `9931_Participants.js`
+- **PauseAction** → `92287_PauseAction.js`
+- **PauseOverlay** → `7514_PauseOverlay.js`
+- **PaymentsModelBase** → `42560_PaymentsModelBase.js`
+- **PCell** → `96239_PCell.js`
+- **PIXIUIModule** → `90399_PIXIUIModule.js`
+- **Plan** → `55314_Plan.js`
+- **Population, BLOCK_POPULATION_SECONDS, SPAWN_AMOUNT_ON_OCCUPATION** → `26630_Population.js`
+- **PopulationSystem** → `28300_PopulationSystem.js`
+- **PreloadAssetsAction** → `952_PreloadAssetsAction.js`
+- **ProgressBar** → `52951_ProgressBar.js`
+- **ProgressBar** → `56212_ProgressBar.js`
+- **ProgressIndicator** → `44966_ProgressIndicator.js`
+- **ProgressSection** → `79631_ProgressSection.js`
+- **Promise, Polyfill** → `66713_Promise.js`
+- **QueryableString** → `88460_QueryableString.js`
+- **QueryBuilder, Query** → `51997_QueryBuilder.js`
+- **Random** → `25879_Random.js`
+- **ReactionSystem** → `14134_ReactionSystem.js`
+- **ReferralRewardsModel** → `50867_ReferralRewardsModel.js`
+- **Request** → `6748_Request.js`
+- **RootMediator** → `20119_RootMediator.js`
+- **RootMediator** → `65743_RootMediator.js`
+- **RootView** → `93710_RootView.js`
+- **Score** → `55960_Score.js`
+- **ScoreEvent, ScoreType** → `17043_ScoreEvent.js`
+- **ScoreGroup** → `17828_ScoreGroup.js`
+- **SelectableFighterDataSet, SelectableBuildingDataSet, SelectableColorsDataSet, SelectableColorCss, UserSelectableColorsSet, SkinType, GameColors** → `66154_SelectableFighterDataSet.js`
+- **SequenceAction** → `36889_SequenceAction.js`
+- **SessionData** → `57655_SessionData.js`
+- **Settings** → `84725_Settings.js`
+- **SettingsButton** → `12832_SettingsButton.js`
+- **SettingsPopup** → `47277_SettingsPopup.js`
+- **SetupSentryAction** → `54261_SetupSentryAction.js`
+- **SetupUIAction** → `94732_SetupUIAction.js`
+- **ShowGiftPopupAction** → `97586_ShowGiftPopupAction.js`
+- **ShowWinPopupAction** → `47665_ShowWinPopupAction.js`
+- **SIDES, SVG_SIZE, TYPES, MIME_TYPES, EMPTY, WHITE, BATCHABLE_SIZE** → `6538_SIDES.js`
+- **Signal** → `17797_Signal.js`
+- **SIOConstants** → `44365_SIOConstants.js`
+- **SIOPreloadAssetsAction** → `94766_SIOPreloadAssetsAction.js`
+- **SkinManager** → `60079_SkinManager.js`
+- **SocialBanners** → `72688_SocialBanners.js`
+- **SocialEvents, SOCIAL_POPUP** → `10357_SocialEvents.js`
+- **SocialFlowAction** → `3057_SocialFlowAction.js`
+- **SocialModelBase** → `38889_SocialModelBase.js`
+- **SocialOverlay** → `31651_SocialOverlay.js`
+- **Spawner, UNITS_PER_WAVE, BURST_WAVES_LEN** → `52057_Spawner.js`
+- **Spinner** → `68878_Spinner.js`
+- **SpritesPool** → `158_SpritesPool.js`
+- **STACK_OVERFLOW, CIRCULAR_DEPENDENCY_IN_FACTORY, POST_CONSTRUCT_ERROR, MULTIPLE_POST_CONSTRUCT_METHODS, CONTAINER_OPTIONS_INVALID_SKIP_BASE_CHECK, CONTAINER_OPTIONS_INVALID_AUTO_BIND_INJECTABLE, CONTAINER_OPTIONS_INVALID_DEFAULT_SCOPE, CONTAINER_OPTIONS_MUST_BE_AN_OBJECT, ARGUMENTS_LENGTH_MISMATCH, INVALID_DECORATOR_OPERATION, INVALID_TO_SELF_VALUE, INVALID_FUNCTION_BINDING, INVALID_MIDDLEWARE_RETURN, NO_MORE_SNAPSHOTS_AVAILABLE, INVALID_BINDING_TYPE, NOT_IMPLEMENTED, CIRCULAR_DEPENDENCY, UNDEFINED_INJECT_ANNOTATION, MISSING_INJECT_ANNOTATION, MISSING_INJECTABLE_ANNOTATION, NOT_REGISTERED, CANNOT_UNBIND, AMBIGUOUS_MATCH, KEY_NOT_FOUND, NULL_ARGUMENT, DUPLICATED_METADATA, DUPLICATED_INJECTABLE_DECORATOR** → `16674_STACK_OVERFLOW.js`
+- **StartGameAction** → `51779_StartGameAction.js`
+- **StartScreen** → `96648_StartScreen.js`
+- **StartScreenAction** → `44046_StartScreenAction.js`
+- **StatusAlertContainer** → `84077_StatusAlertContainer.js`
+- **StatusAlertItem** → `95252_StatusAlertItem.js`
+- **StatusAlertService** → `63386_StatusAlertService.js`
+- **StatusAlertService, StatusAlertServiceClass** → `99061_StatusAlertService.js`
+- **StatusAlertView** → `82288_StatusAlertView.js`
+- **SteppedEase** → `25317_SteppedEase.js`
+- **StoreActionTypes** → `29518_StoreActionTypes.js`
+- **SubmitContextScoreAction** → `6248_SubmitContextScoreAction.js`
+- **Subscription** → `29017_Subscription.js`
+- **SuggestAuthorizeAction** → `52958_SuggestAuthorizeAction.js`
+- **SuggestLoginPopup** → `42709_SuggestLoginPopup.js`
+- **SVG, Images** → `36622_SVG.js`
+- **SvgCapturingProgress** → `52472_SvgCapturingProgress.js`
+- **System** → `99007_System.js`
+- **TapToPlayButton** → `53309_TapToPlayButton.js`
+- **Target** → `18924_Target.js`
+- **TargetTypeEnum, BindingTypeEnum, BindingScopeEnum** → `28421_TargetTypeEnum.js`
+- **TexturedShopItem** → `62415_TexturedShopItem.js`
+- **TimeTrack** → `39887_TimeTrack.js`
+- **ToggleControl** → `75953_ToggleControl.js`
+- **TournamentCreateAction, POST_WIDTH, POST_HEIGHT** → `57503_TournamentCreateAction.js`
+- **TournamentPostScoreAction** → `47_TournamentPostScoreAction.js`
+- **TournamentsDebugPanel** → `56462_TournamentsDebugPanel.js`
+- **TournamentShareAction** → `93599_TournamentShareAction.js`
+- **TutorialFingerView** → `51006_TutorialFingerView.js`
+- **TutorialSystem** → `10754_TutorialSystem.js`
+- **Types2D** → `79384_Types2D.js`
+- **TypesAds** → `41598_TypesAds.js`
+- **TypesAnalytics** → `82943_TypesAnalytics.js`
+- **TypesApp** → `8877_TypesApp.js`
+- **TypesAudio** → `62653_TypesAudio.js`
+- **TypesCore** → `73104_TypesCore.js`
+- **TypesFlow** → `9168_TypesFlow.js`
+- **TypesGame** → `95781_TypesGame.js`
+- **TypesNotification** → `98241_TypesNotification.js`
+- **TypesPromo** → `32782_TypesPromo.js`
+- **TypesSocial** → `28037_TypesSocial.js`
+- **TypesUI** → `26883_TypesUI.js`
+- **UIConstants, ShopType** → `74083_UIConstants.js`
+- **UIEvents** → `23649_UIEvents.js`
+- **UIRoot** → `76883_UIRoot.js`
+- **UpdateSkinsSystem** → `44802_UpdateSkinsSystem.js`
+- **Url** → `8575_Url.js`
+- **UrlParser** → `90134_UrlParser.js`
+- **VersionLabel** → `73793_VersionLabel.js`
+- **WaitAction** → `71794_WaitAction.js`
+
+## Platform (Yandex)
+
+- **PaymentsModelYandex** → `61767_PaymentsModelYandex.js`
+- **SocialModelYandex** → `63895_SocialModelYandex.js`
+- **SocialModuleYandex** → `14562_SocialModuleYandex.js`
+- **SyncYandexLeaderboardsAction** → `25556_SyncYandexLeaderboardsAction.js`
+
+## Social / Auth
+
+- **AuthActionBase** → `65248_AuthActionBase.js`
+- **AuthYandexAction** → `90190_AuthYandexAction.js`
+- **BackendModel** → `63333_BackendModel.js`
+- **Cookie** → `67149_Cookie.js`
+- **CookieDataLocalStorage, CookieDataWeb, CookieDataBase** → `58670_CookieDataLocalStorage.js`
+- **CookieModel, CookieModelKey** → `56792_CookieModel.js`
+- **CookieModelBase** → `28696_CookieModelBase.js`
+- **CookieModelYandex** → `5183_CookieModelYandex.js`
+- **LeaderboardButton** → `96087_LeaderboardButton.js`
+- **LeaderboardContextExternal** → `43603_LeaderboardContextExternal.js`
+- **LeaderboardGlobalExternal** → `41976_LeaderboardGlobalExternal.js`
+- **LeaderboardGlobalYandex, PREFIX** → `97954_LeaderboardGlobalYandex.js`
+- **LeaderboardScreen** → `2906_LeaderboardScreen.js`
+- **UserDataBase** → `92819_UserDataBase.js`
+- **UserDataLocalStorage** → `77499_UserDataLocalStorage.js`
+- **UserDataWeb, COOKIE_NAME** → `30945_UserDataWeb.js`
+- **UserDataYandex** → `90050_UserDataYandex.js`
+- **UserIdLabel** → `29343_UserIdLabel.js`
+- **UserPic** → `78001_UserPic.js`
+- **UserScore** → `66423_UserScore.js`
+- **UserStatusInfo** → `69080_UserStatusInfo.js`
+- **UserYandex** → `59503_UserYandex.js`
+
+## UI / Popup
+
+- **AlertsOverlay** → `41510_AlertsOverlay.js`
+- **Button** → `8407_Button.js`
+- **CancelButton** → `45878_CancelButton.js`
+- **Claim** → `22674_Claim.js`
+- **ClaimButton** → `75663_ClaimButton.js`
+- **ConfirmButton** → `62671_ConfirmButton.js`
+- **ConfirmPopup** → `56532_ConfirmPopup.js`
+- **ContinueButton** → `53527_ContinueButton.js`
+- **Overlay** → `41099_Overlay.js`
+- **Popups** → `94776_Popups.js`
+- **PopupType** → `30107_PopupType.js`
+- **PopupWinIndicator** → `49071_PopupWinIndicator.js`
+- **ShareActionOk** → `93533_ShareActionOk.js`
+- **ShareComponent** → `8207_ShareComponent.js`
+- **ShareLevelResultPopup** → `8189_ShareLevelResultPopup.js`
+- **ShareTournamentFormDebug** → `2719_ShareTournamentFormDebug.js`
+- **Winner** → `56612_Winner.js`
+- **WinRays** → `94571_WinRays.js`
+- **WinStagePopup** → `46696_WinStagePopup.js`
+- **WinStars** → `57103_WinStars.js`
+
+## Barrel / Re‑export Modules
+
+- `550__mod.js`
+- `659__mod.js`
+- `1245__mod.js`
+- `1255__mod.js`
+- `1823__mod.js`
+- `2611__mod.js`
+- `3207__mod.js`
+- `3791__mod.js`
+- `4199__mod.js`
+- `4421__mod.js`
+- `4902__mod.js`
+- `5130__mod.js`
+- `5962__mod.js`
+- `6000__mod.js`
+- `6162__mod.js`
+- `6376__mod.js`
+- `6400__mod.js`
+- `6515__mod.js`
+- `7014__mod.js`
+- `7375__mod.js`
+- `7997__mod.js`
+- `8463__mod.js`
+- `8803__mod.js`
+- `8823__mod.js`
+- `8928__mod.js`
+- `9015__mod.js`
+- `9187__mod.js`
+- `9356__mod.js`
+- `9732__mod.js`
+- `10350__mod.js`
+- `10441__mod.js`
+- `10471__mod.js`
+- `10660__mod.js`
+- `10797__mod.js`
+- `10990__mod.js`
+- `11414__mod.js`
+- `11764__mod.js`
+- `12343__mod.js`
+- `12361__mod.js`
+- `13011__mod.js`
+- `13137__mod.js`
+- `13283__mod.js`
+- `13566__mod.js`
+- `14047__mod.js`
+- `14565__mod.js`
+- `14936__mod.js`
+- `15853__mod.js`
+- `16458__mod.js`
+- `16584__mod.js`
+- `17094__mod.js`
+- `17325__mod.js`
+- `17673__mod.js`
+- `18230__mod.js`
+- `18718__mod.js`
+- `19562__mod.js`
+- `19963__mod.js`
+- `20080__mod.js`
+- `20167__mod.js`
+- `20535__mod.js`
+- `20621__mod.js`
+- `21170__mod.js`
+- `21364__mod.js`
+- `21391__mod.js`
+- `21774__mod.js`
+- `22094__mod.js`
+- `22096__mod.js`
+- `22283__mod.js`
+- `24368__mod.js`
+- `24473__mod.js`
+- `24998__mod.js`
+- `25987__mod.js`
+- `26048__mod.js`
+- `26531__mod.js`
+- `26604__mod.js`
+- `26729__mod.js`
+- `26939__mod.js`
+- `26956__mod.js`
+- `27106__mod.js`
+- `27418__mod.js`
+- `27582__mod.js`
+- `28130__mod.js`
+- `28581__mod.js`
+- `28660__mod.js`
+- `29503__mod.js`
+- `29568__mod.js`
+- `29671__mod.js`
+- `30360__mod.js`
+- `30396__mod.js`
+- `31529__mod.js`
+- `31927__mod.js`
+- `32052__mod.js`
+- `32115__mod.js`
+- `32238__mod.js`
+- `32455__mod.js`
+- `32956__mod.js`
+- `33001__mod.js`
+- `33210__mod.js`
+- `33391__mod.js`
+- `33877__mod.js`
+- `34365__mod.js`
+- `35536__mod.js`
+- `35836__mod.js`
+- `36050__mod.js`
+- `36163__mod.js`
+- `36211__mod.js`
+- `36957__mod.js`
+- `37578__mod.js`
+- `37725__mod.js`
+- `37791__mod.js`
+- `38085__mod.js`
+- `38224__mod.js`
+- `38319__mod.js`
+- `38497__mod.js`
+- `39066__mod.js`
+- `41118__mod.js`
+- `44097__mod.js`
+- `44656__mod.js`
+- `45230__mod.js`
+- `45375__mod.js`
+- `45645__mod.js`
+- `46193__mod.js`
+- `46262__mod.js`
+- `47058__mod.js`
+- `47135__mod.js`
+- `47519__mod.js`
+- `47932__mod.js`
+- `48239__mod.js`
+- `48439__mod.js`
+- `48616__mod.js`
+- `49473__mod.js`
+- `50132__mod.js`
+- `50725__mod.js`
+- `50961__mod.js`
+- `52279__mod.js`
+- `52388__mod.js`
+- `52511__mod.js`
+- `53152__mod.js`
+- `53333__mod.js`
+- `54768__mod.js`
+- `55132__mod.js`
+- `55334__mod.js`
+- `55638__mod.js`
+- `55641__mod.js`
+- `55784__mod.js`
+- `55800__mod.js`
+- `55803__mod.js`
+- `55854__mod.js`
+- `56467__mod.js`
+- `56635__mod.js`
+- `56954__mod.js`
+- `56959__mod.js`
+- `57321__mod.js`
+- `57862__mod.js`
+- `58319__mod.js`
+- `58464__mod.js`
+- `59480__mod.js`
+- `59795__mod.js`
+- `59967__mod.js`
+- `60492__mod.js`
+- `60539__mod.js`
+- `61087__mod.js`
+- `61709__mod.js`
+- `61747__mod.js`
+- `61750__mod.js`
+- `62502__mod.js`
+- `62587__mod.js`
+- `62758__mod.js`
+- `62844__mod.js`
+- `63044__mod.js`
+- `63233__mod.js`
+- `63328__mod.js`
+- `63665__mod.js`
+- `64307__mod.js`
+- `64315__mod.js`
+- `65203__mod.js`
+- `66721__mod.js`
+- `66823__mod.js`
+- `67566__mod.js`
+- `67597__mod.js`
+- `68019__mod.js`
+- `68252__mod.js`
+- `68313__mod.js`
+- `68532__mod.js`
+- `68719__mod.js`
+- `68760__mod.js`
+- `69130__mod.js`
+- `69181__mod.js`
+- `69185__mod.js`
+- `70461__mod.js`
+- `70535__mod.js`
+- `70600__mod.js`
+- `70655__mod.js`
+- `71235__mod.js`
+- `71693__mod.js`
+- `72630__mod.js`
+- `72921__mod.js`
+- `73230__mod.js`
+- `73802__mod.js`
+- `73956__mod.js`
+- `74444__mod.js`
+- `75111__mod.js`
+- `75390__mod.js`
+- `76702__mod.js`
+- `77577__mod.js`
+- `78346__mod.js`
+- `78526__mod.js`
+- `79349__mod.js`
+- `79574__mod.js`
+- `80672__mod.js`
+- `80758__mod.js`
+- `80951__mod.js`
+- `82110__mod.js`
+- `82940__mod.js`
+- `83296__mod.js`
+- `83354__mod.js`
+- `83372__mod.js`
+- `83451__mod.js`
+- `83864__mod.js`
+- `83977__mod.js`
+- `84019__mod.js`
+- `84194__mod.js`
+- `84879__mod.js`
+- `85265__mod.js`
+- `85525__mod.js`
+- `85666__mod.js`
+- `86125__mod.js`
+- `86178__mod.js`
+- `86311__mod.js`
+- `86757__mod.js`
+- `86939__mod.js`
+- `87195__mod.js`
+- `87844__mod.js`
+- `87854__mod.js`
+- `88183__mod.js`
+- `89264__mod.js`
+- `89282__mod.js`
+- `89559__mod.js`
+- `89991__mod.js`
+- `90505__mod.js`
+- `91881__mod.js`
+- `92015__mod.js`
+- `92192__mod.js`
+- `92448__mod.js`
+- `92716__mod.js`
+- `92888__mod.js`
+- `94184__mod.js`
+- `95348__mod.js`
+- `95579__mod.js`
+- `95659__mod.js`
+- `96893__mod.js`
+- `97573__mod.js`
+- `98109__mod.js`
+- `98707__mod.js`
+- `98919__mod.js`
+- `98931__mod.js`
+- `99261__mod.js`
+- `99621__mod.js`
+- `99856__mod.js`
+- `99934__mod.js`
