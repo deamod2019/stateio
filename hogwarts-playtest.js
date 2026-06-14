@@ -10,6 +10,7 @@ const REGION_META = {
   ForbiddenForest: { name: "禁林", x: 872, y: 356 },
   BlackLake: { name: "黑湖", x: 236, y: 454 },
   GryffindorTower: { name: "格兰芬多塔", x: 486, y: 306 },
+  AstronomyTower: { name: "天文塔", x: 596, y: 214 },
   HogwartsCastle: { name: "霍格沃茨城堡", x: 602, y: 330 },
   RoomOfRequirement: { name: "有求必应屋", x: 704, y: 312 },
   WhompingWillow: { name: "打人柳", x: 756, y: 424 },
@@ -17,6 +18,7 @@ const REGION_META = {
   Greenhouses: { name: "温室", x: 752, y: 532 },
   Boathouse: { name: "船屋", x: 612, y: 588 },
   GreatHall: { name: "礼堂", x: 470, y: 588 },
+  StoneDefenseLine: { name: "石像防线", x: 446, y: 682 },
   Dungeon: { name: "地牢", x: 300, y: 684 },
 };
 
@@ -27,19 +29,21 @@ const ADJACENCY = {
   GladragsWizardwear: ["Spintwitches", "ThreeBroomsticks", "NorthLawn"],
   ThreeBroomsticks: ["GladragsWizardwear", "NorthLawn"],
   QuidditchPitch: ["Honeydukes", "DervishAndBanges", "Spintwitches", "NorthLawn", "BlackLake"],
-  NorthLawn: ["Spintwitches", "GladragsWizardwear", "ThreeBroomsticks", "QuidditchPitch", "GryffindorTower", "HagridHut"],
-  HagridHut: ["NorthLawn", "ForbiddenForest", "RoomOfRequirement"],
+  NorthLawn: ["Spintwitches", "GladragsWizardwear", "ThreeBroomsticks", "QuidditchPitch", "GryffindorTower", "HagridHut", "AstronomyTower"],
+  HagridHut: ["NorthLawn", "ForbiddenForest", "RoomOfRequirement", "AstronomyTower"],
   ForbiddenForest: ["HagridHut", "WhompingWillow", "Greenhouses"],
   BlackLake: ["QuidditchPitch", "GrandStaircase", "Dungeon", "Boathouse"],
-  GryffindorTower: ["NorthLawn", "HogwartsCastle", "GrandStaircase"],
-  HogwartsCastle: ["GryffindorTower", "RoomOfRequirement", "GrandStaircase", "WhompingWillow"],
-  RoomOfRequirement: ["HogwartsCastle", "HagridHut", "WhompingWillow"],
+  GryffindorTower: ["NorthLawn", "AstronomyTower", "HogwartsCastle", "GrandStaircase"],
+  AstronomyTower: ["NorthLawn", "HagridHut", "GryffindorTower", "HogwartsCastle", "RoomOfRequirement"],
+  HogwartsCastle: ["GryffindorTower", "AstronomyTower", "RoomOfRequirement", "GrandStaircase", "WhompingWillow"],
+  RoomOfRequirement: ["HogwartsCastle", "AstronomyTower", "HagridHut", "WhompingWillow"],
   WhompingWillow: ["HogwartsCastle", "RoomOfRequirement", "Greenhouses", "ForbiddenForest"],
-  GrandStaircase: ["GryffindorTower", "HogwartsCastle", "GreatHall", "BlackLake", "Boathouse"],
+  GrandStaircase: ["GryffindorTower", "HogwartsCastle", "GreatHall", "BlackLake", "Boathouse", "StoneDefenseLine"],
   Greenhouses: ["WhompingWillow", "Boathouse", "ForbiddenForest"],
-  Boathouse: ["GrandStaircase", "GreatHall", "BlackLake", "Greenhouses"],
-  GreatHall: ["GrandStaircase", "Boathouse", "Dungeon"],
-  Dungeon: ["GreatHall", "BlackLake"],
+  Boathouse: ["GrandStaircase", "GreatHall", "BlackLake", "Greenhouses", "StoneDefenseLine"],
+  GreatHall: ["GrandStaircase", "Boathouse", "Dungeon", "StoneDefenseLine"],
+  StoneDefenseLine: ["GrandStaircase", "GreatHall", "Boathouse", "Dungeon"],
+  Dungeon: ["GreatHall", "StoneDefenseLine", "BlackLake"],
 };
 
 const LEVELS = [
@@ -47,8 +51,12 @@ const LEVELS = [
     title: "第一关：夜巡入校",
     brief: "从城堡和格兰芬多塔出发，夺回活动楼梯，再压住地牢。",
     aiDelay: 1850,
-    coins: 70,
-    mission: { target: "GrandStaircase", text: "占领活动楼梯", reward: 35 },
+    coins: 50,
+    missionChain: [
+      { target: "GrandStaircase", text: "夺回活动楼梯", reward: 25 },
+      { target: "GreatHall", text: "控制礼堂补给线", reward: 30 },
+      { target: "Dungeon", text: "清除地牢威胁", reward: 40 },
+    ],
     regions: {
       HogwartsCastle: ["player", 38],
       GryffindorTower: ["player", 28],
@@ -57,14 +65,19 @@ const LEVELS = [
       GrandStaircase: ["neutral", 16],
       GreatHall: ["neutral", 22],
       RoomOfRequirement: ["neutral", 12],
+      StoneDefenseLine: ["neutral", 10],
     },
   },
   {
     title: "第二关：湖岸反击",
     brief: "黑湖兵力很厚，但行动慢。先守城堡，再从船屋打开南线。",
     aiDelay: 1550,
-    coins: 75,
-    mission: { target: "Boathouse", text: "占领船屋打开南线", reward: 40 },
+    coins: 50,
+    missionChain: [
+      { target: "Boathouse", text: "占领船屋打开南线", reward: 30 },
+      { target: "StoneDefenseLine", text: "激活石像防线", reward: 35 },
+      { target: "BlackLake", text: "夺回黑湖岸线", reward: 45 },
+    ],
     regions: {
       HogwartsCastle: ["player", 34],
       GryffindorTower: ["player", 20],
@@ -75,14 +88,20 @@ const LEVELS = [
       GreatHall: ["neutral", 16],
       GrandStaircase: ["neutral", 14],
       RoomOfRequirement: ["neutral", 10],
+      AstronomyTower: ["neutral", 12],
+      StoneDefenseLine: ["neutral", 10],
     },
   },
   {
     title: "第三关：禁林决战",
     brief: "先抢有求必应屋拿增援，再从活动楼梯和温室夹击禁林。",
     aiDelay: 1600,
-    coins: 80,
-    mission: { target: "RoomOfRequirement", text: "抢下有求必应屋", reward: 60 },
+    coins: 50,
+    missionChain: [
+      { target: "RoomOfRequirement", text: "抢下有求必应屋", reward: 35 },
+      { target: "AstronomyTower", text: "占领天文塔预警", reward: 35 },
+      { target: "ForbiddenForest", text: "压制禁林决战点", reward: 60 },
+    ],
     regions: {
       HogwartsCastle: ["player", 52],
       GryffindorTower: ["player", 30],
@@ -94,6 +113,8 @@ const LEVELS = [
       GrandStaircase: ["neutral", 14],
       BlackLake: ["neutral", 22],
       Greenhouses: ["neutral", 12],
+      AstronomyTower: ["neutral", 10],
+      StoneDefenseLine: ["neutral", 12],
     },
   },
 ];
@@ -116,6 +137,7 @@ const GROWTH = {
   ForbiddenForest: 0.9,
   BlackLake: 0.7,
   GryffindorTower: 0.95,
+  AstronomyTower: 0.85,
   HogwartsCastle: 1,
   RoomOfRequirement: 0.9,
   WhompingWillow: 0.8,
@@ -123,6 +145,7 @@ const GROWTH = {
   Greenhouses: 1.05,
   Boathouse: 0.95,
   GreatHall: 1.25,
+  StoneDefenseLine: 0.75,
   Dungeon: 1,
 };
 
@@ -131,16 +154,31 @@ const COIN_RATE = {
   DervishAndBanges: 1.25,
   Spintwitches: 1.35,
   GladragsWizardwear: 1.25,
-  ThreeBroomsticks: 1.8,
+  ThreeBroomsticks: 3.2,
   QuidditchPitch: 1,
   GreatHall: 0.8,
   HogwartsCastle: 0.7,
 };
 
+const SPECIAL_RULES = {
+  RoomOfRequirement: "首次占领：给最薄弱的两个己方地块各 +12 增援",
+  QuidditchPitch: "首次占领：当前占领方获得 +100 兵力",
+  ThreeBroomsticks: "持续产金币：我方占领时金币速度大幅提高",
+  AstronomyTower: "天文塔预警：我方占领时提前看见敌方下一次进攻方向",
+  StoneDefenseLine: "石像防线：占领方在此地块受到的伤害降低",
+};
+
+const FORECAST_LEAD_MS = 1650;
+const STONE_DEFENSE_MULTIPLIER = 0.58;
+const CAPTURE_COST = 15;
+const EVENT_INTERVAL = 22000;
+
 const ITEM_COSTS = {
-  reinforce: 50,
+  reinforce: 40,
   shield: 45,
-  floo: 40,
+  floo: 35,
+  petrify: 35,
+  disarm: 30,
 };
 
 const DEFAULT_REGION = ["neutral", 12];
@@ -161,9 +199,13 @@ const startGame = document.querySelector("#startGame");
 const coinCount = document.querySelector("#coinCount");
 const missionText = document.querySelector("#missionText");
 const missionStatus = document.querySelector("#missionStatus");
+const specialStatus = document.querySelector("#specialStatus");
+const eventStatus = document.querySelector("#eventStatus");
 const itemReinforce = document.querySelector("#itemReinforce");
 const itemShield = document.querySelector("#itemShield");
 const itemFloo = document.querySelector("#itemFloo");
+const itemPetrify = document.querySelector("#itemPetrify");
+const itemDisarm = document.querySelector("#itemDisarm");
 
 let levelIndex = 0;
 let state = {};
@@ -178,9 +220,17 @@ let drag = null;
 let paused = false;
 let pauseStarted = 0;
 let coins = 0;
-let missionDone = false;
+let missionStep = 0;
 let activeItem = null;
 let flooSource = null;
+let enemyForecast = null;
+let specialNote = "";
+let specialNoteUntil = 0;
+let eventNote = "";
+let eventNoteUntil = 0;
+let nextEventAt = 0;
+let activeEvent = null;
+let activeEventUntil = 0;
 
 function initialState(level) {
   const next = {};
@@ -210,6 +260,10 @@ async function loadMap() {
   for (const id of Object.keys(REGION_META)) {
     const group = groupFor(id);
     group?.addEventListener("pointerdown", (event) => onRegionPointerDown(event, id));
+    if (SPECIAL_RULES[id]) {
+      group?.classList.add("is-special-region");
+      group?.setAttribute("aria-label", `${REGION_META[id].name}：${SPECIAL_RULES[id]}`);
+    }
   }
 }
 
@@ -235,9 +289,17 @@ function startLevel(index) {
   pauseStarted = 0;
   roomBonusUsed = false;
   quidditchBonusUsed = false;
-  missionDone = false;
+  missionStep = 0;
   activeItem = null;
   flooSource = null;
+  enemyForecast = null;
+  specialNote = "";
+  specialNoteUntil = 0;
+  eventNote = "";
+  eventNoteUntil = 0;
+  activeEvent = null;
+  activeEventUntil = 0;
+  nextEventAt = performance.now() + EVENT_INTERVAL * 0.7;
   hideBanner();
   updatePauseButtons();
   updateStrategyBar();
@@ -246,7 +308,7 @@ function startLevel(index) {
 
 function onRegionPointerDown(event, id) {
   if (ended || paused) return;
-  if (activeItem && state[id].owner === "player") {
+  if (activeItem && canUseItemOn(activeItem, id)) {
     useActiveItem(id);
     return;
   }
@@ -255,7 +317,7 @@ function onRegionPointerDown(event, id) {
     return;
   }
 
-  if (selected && ADJACENCY[selected].includes(id)) {
+  if (selected && adjacentTo(selected).includes(id)) {
     send(selected, id, "player");
     selected = null;
     render();
@@ -293,7 +355,7 @@ function onPointerUp(event) {
   if (!drag) return;
   const target = regionFromPoint(event.clientX, event.clientY);
   const source = drag.id;
-  const canAttack = target && target !== source && ADJACENCY[source].includes(target);
+  const canAttack = target && target !== source && adjacentTo(source).includes(target);
 
   if (canAttack) {
     send(source, target, "player");
@@ -386,7 +448,14 @@ function formationDots(packet, progress) {
 }
 
 function send(from, to, owner) {
+  if (isRegionFrozen(from)) {
+    if (owner === "player") updateStrategyBar(`${REGION_META[from].name}被石化，暂时不能出兵`);
+    return false;
+  }
   if (state[from].owner !== owner || state[from].troops < 2) return;
+  if (owner === "player" && state[to]?.owner !== "player" && !spendCoins(CAPTURE_COST, "金币不足，无法抢地盘")) {
+    return false;
+  }
   const amount = Math.floor(state[from].troops / 2);
   state[from].troops -= amount;
   const a = REGION_META[from];
@@ -395,12 +464,13 @@ function send(from, to, owner) {
   const lakePenalty = from === "BlackLake" ? 1.2 : 1;
   packets.push({
     owner,
-    amount,
+    amount: isRegionDisarmed(from) ? Math.ceil(amount / 2) : amount,
     from,
     to,
     start: performance.now(),
     duration: Math.max(520, distance * 3.2 * lakePenalty),
   });
+  return true;
 }
 
 function resolveArrival(packet) {
@@ -411,20 +481,45 @@ function resolveArrival(packet) {
   }
 
   const shielded = target.shieldUntil && performance.now() < target.shieldUntil;
-  const damage = shielded ? Math.ceil(packet.amount / 2) : packet.amount;
+  const stoneDefended = packet.to === "StoneDefenseLine" && target.owner !== "neutral";
+  const shieldMultiplier = shielded ? 0.5 : 1;
+  const stoneMultiplier = stoneDefended ? STONE_DEFENSE_MULTIPLIER : 1;
+  const damage = Math.ceil(packet.amount * shieldMultiplier * stoneMultiplier);
   target.troops -= damage;
   if (target.troops < 0) {
     target.owner = packet.owner;
     target.troops = Math.abs(target.troops);
-    if (packet.to === "RoomOfRequirement" && packet.owner === "player" && !roomBonusUsed) {
-      roomBonusUsed = true;
-      applyRoomBonus(packet.owner);
-    }
-    if (packet.to === "QuidditchPitch" && !quidditchBonusUsed) {
-      quidditchBonusUsed = true;
-      target.troops += 100;
-    }
+    applyCaptureSpecial(packet.to, packet.owner);
     checkMission(packet.to);
+  }
+}
+
+function applyCaptureSpecial(id, owner) {
+  const ownerName = owner === "player" ? "我方" : "敌方";
+
+  if (id === "RoomOfRequirement" && !roomBonusUsed) {
+    roomBonusUsed = true;
+    applyRoomBonus(owner);
+    setSpecialNote(`${ownerName}触发有求必应屋：两处薄弱地块获得增援`);
+  }
+
+  if (id === "QuidditchPitch" && !quidditchBonusUsed) {
+    quidditchBonusUsed = true;
+    state[id].troops += 100;
+    setSpecialNote(`${ownerName}抢到魁地奇球场：获得 +100 兵力`);
+  }
+
+  if (id === "ThreeBroomsticks" && owner === "player") {
+    setSpecialNote("三把扫帚开始产金币");
+  }
+
+  if (id === "AstronomyTower" && owner === "player") {
+    enemyForecast = null;
+    setSpecialNote("天文塔已占领：下一次敌军进攻会提前预警");
+  }
+
+  if (id === "StoneDefenseLine") {
+    setSpecialNote(`${ownerName}占领石像防线：这里受到的伤害降低`);
   }
 }
 
@@ -438,9 +533,10 @@ function applyRoomBonus(owner) {
 
 function update(now) {
   if (!ended && !paused) {
+    updateTimedEffects(now);
     for (const [id, region] of Object.entries(state)) {
-      if (region.owner !== "neutral") {
-        region.troops += (GROWTH[id] || 1) * 0.018;
+      if (region.owner !== "neutral" && !isRegionFrozen(id, now)) {
+        region.troops += (GROWTH[id] || 1) * eventGrowthMultiplier() * 0.018;
       }
       if (region.owner === "player") {
         coins += (COIN_RATE[id] || 0.35) * 0.018;
@@ -456,11 +552,7 @@ function update(now) {
       return true;
     });
 
-    const level = LEVELS[levelIndex];
-    if (now - lastAi > level.aiDelay) {
-      lastAi = now;
-      aiMove();
-    }
+    handleAi(now, LEVELS[levelIndex]);
 
     checkEnd();
   }
@@ -469,24 +561,75 @@ function update(now) {
   requestAnimationFrame(update);
 }
 
-function aiMove() {
+function handleAi(now, level) {
+  if (enemyForecast && !isAiMoveValid(enemyForecast.from, enemyForecast.to)) {
+    enemyForecast = null;
+    lastAi = now - level.aiDelay;
+  }
+
+  if (enemyForecast) {
+    if (now >= enemyForecast.attackAt) {
+      send(enemyForecast.from, enemyForecast.to, "enemy");
+      enemyForecast = null;
+      lastAi = now;
+    }
+    return;
+  }
+
+  if (now - lastAi <= level.aiDelay) return;
+
+  const move = chooseAiMove();
+  if (!move) return;
+
+  if (state.AstronomyTower?.owner === "player") {
+    enemyForecast = {
+      ...move,
+      attackAt: now + FORECAST_LEAD_MS,
+    };
+    setSpecialNote(`天文塔预警：敌方将从${REGION_META[move.from].name}进攻${REGION_META[move.to].name}`, FORECAST_LEAD_MS + 900);
+    return;
+  }
+
+  send(move.from, move.to, "enemy");
+  lastAi = now;
+}
+
+function chooseAiMove() {
   const candidates = Object.entries(state)
-    .filter(([id, region]) => region.owner === "enemy" && region.troops >= 10 && ADJACENCY[id].some((to) => state[to].owner !== "enemy"))
+    .filter(([id, region]) => region.owner === "enemy" && region.troops >= 10 && !isRegionFrozen(id) && adjacentTo(id).some((to) => state[to].owner !== "enemy"))
     .sort((a, b) => b[1].troops - a[1].troops);
 
   const [from] = candidates[0] || [];
-  if (!from) return;
+  if (!from) return null;
 
-  const targets = ADJACENCY[from]
+  const targets = adjacentTo(from)
     .filter((id) => state[id].owner !== "enemy")
     .sort((a, b) => targetScore(b) - targetScore(a));
   const to = targets[0];
-  if (to) send(from, to, "enemy");
+  return to ? { from, to } : null;
+}
+
+function aiMove() {
+  const move = chooseAiMove();
+  if (move) send(move.from, move.to, "enemy");
+}
+
+function isAiMoveValid(from, to) {
+  return Boolean(
+    from &&
+      to &&
+      state[from]?.owner === "enemy" &&
+      state[from].troops >= 2 &&
+      state[to]?.owner !== "enemy" &&
+      adjacentTo(from).includes(to)
+  );
 }
 
 function targetScore(id) {
   const ownerScore = state[id].owner === "player" ? 40 : 10;
-  return ownerScore + (24 - state[id].troops) + (id === "GrandStaircase" || id === "RoomOfRequirement" ? 10 : 0);
+  const specialScore = id === "GrandStaircase" || id === "RoomOfRequirement" || id === "AstronomyTower" ? 10 : 0;
+  const easyTargetScore = 24 - state[id].troops;
+  return ownerScore + easyTargetScore + specialScore;
 }
 
 function checkEnd() {
@@ -513,15 +656,23 @@ function render(now = performance.now()) {
     if (path) path.setAttribute("fill", COLORS[region.owner]);
     const group = groupFor(id);
     group?.classList.toggle("is-selected", selected === id);
-    group?.classList.toggle("is-target", Boolean(selected && ADJACENCY[selected].includes(id)));
+    group?.classList.toggle("is-target", Boolean(selected && adjacentTo(selected).includes(id)));
+    group?.classList.toggle("is-owned-special", Boolean(SPECIAL_RULES[id] && region.owner === "player"));
   }
 
   troopLayer.innerHTML = "";
+  if (enemyForecast && state.AstronomyTower?.owner === "player") {
+    renderForecastLine(enemyForecast);
+  }
+
   for (const [id, region] of Object.entries(state)) {
     const meta = REGION_META[id];
     const marker = document.createElement("div");
     const shielded = region.shieldUntil && now < region.shieldUntil;
-    marker.className = `troop ${region.owner}${shielded ? " shielded" : ""}`;
+    const fortified = id === "StoneDefenseLine" && region.owner !== "neutral";
+    const frozen = isRegionFrozen(id, now);
+    const disarmed = isRegionDisarmed(id, now);
+    marker.className = `troop ${region.owner}${shielded ? " shielded" : ""}${fortified ? " fortified" : ""}${frozen ? " frozen" : ""}${disarmed ? " disarmed" : ""}`;
     marker.dataset.regionId = id;
     const position = svgToPercent(meta.x, meta.y);
     marker.style.left = position.left;
@@ -543,6 +694,20 @@ function render(now = performance.now()) {
   }
 }
 
+function renderForecastLine(forecast) {
+  const a = pointForRegion(forecast.from);
+  const b = pointForRegion(forecast.to);
+  const dx = b.x - a.x;
+  const dy = b.y - a.y;
+  const line = document.createElement("div");
+  line.className = "forecast-line";
+  line.style.left = `${a.x}px`;
+  line.style.top = `${a.y}px`;
+  line.style.width = `${Math.hypot(dx, dy)}px`;
+  line.style.transform = `translateY(-50%) rotate(${Math.atan2(dy, dx)}rad)`;
+  troopLayer.append(line);
+}
+
 function setActiveItem(item) {
   if (ended || paused) return;
   activeItem = activeItem === item ? null : item;
@@ -553,12 +718,16 @@ function setActiveItem(item) {
 }
 
 function useActiveItem(id) {
+  if (!canUseItemOn(activeItem, id)) {
+    updateStrategyBar("法术牌只能由玩家按规则使用");
+    return;
+  }
   if (activeItem === "reinforce") {
-    if (!spendCoins(ITEM_COSTS.reinforce)) return;
+    if (!spendCoins(ITEM_COSTS.reinforce, "金币不足，不能使用增援令")) return;
     state[id].troops += 30;
     clearActiveItem();
   } else if (activeItem === "shield") {
-    if (!spendCoins(ITEM_COSTS.shield)) return;
+    if (!spendCoins(ITEM_COSTS.shield, "金币不足，不能使用守护神咒")) return;
     state[id].shieldUntil = performance.now() + 10000;
     clearActiveItem();
   } else if (activeItem === "floo") {
@@ -570,16 +739,29 @@ function useActiveItem(id) {
       return;
     }
     if (flooSource !== id && state[flooSource]?.owner === "player") {
-      if (!spendCoins(ITEM_COSTS.floo)) return;
+      if (!spendCoins(ITEM_COSTS.floo, "金币不足，不能使用飞路粉")) return;
       send(flooSource, id, "player");
     }
+    clearActiveItem();
+  } else if (activeItem === "petrify") {
+    if (!spendCoins(ITEM_COSTS.petrify, "金币不足，不能使用统统石化")) return;
+    state[id].freezeUntil = performance.now() + 7000;
+    setSpecialNote(`${REGION_META[id].name}被统统石化：7秒内不能增长和出兵`);
+    clearActiveItem();
+  } else if (activeItem === "disarm") {
+    if (!spendCoins(ITEM_COSTS.disarm, "金币不足，不能使用除你武器")) return;
+    state[id].disarmUntil = performance.now() + 9000;
+    setSpecialNote(`${REGION_META[id].name}被除你武器：下一段时间出兵减半`);
     clearActiveItem();
   }
   render();
 }
 
-function spendCoins(cost) {
-  if (coins < cost) return false;
+function spendCoins(cost, message = "金币不足") {
+  if (coins < cost) {
+    updateStrategyBar(message);
+    return false;
+  }
   coins -= cost;
   return true;
 }
@@ -592,30 +774,154 @@ function clearActiveItem() {
 }
 
 function checkMission(id) {
-  const mission = LEVELS[levelIndex].mission;
-  if (!mission || missionDone || id !== mission.target || state[id].owner !== "player") return;
-  missionDone = true;
+  const mission = currentMission();
+  if (!mission || id !== mission.target || state[id].owner !== "player") return;
+  missionStep += 1;
   coins += mission.reward;
+  const done = missionStep >= missionChain().length;
+  updateStrategyBar(done ? `任务链完成 +${mission.reward}` : `完成 +${mission.reward}`);
+}
+
+function missionChain() {
+  const level = LEVELS[levelIndex] || {};
+  return level.missionChain || (level.mission ? [level.mission] : []);
+}
+
+function currentMission() {
+  return missionChain()[missionStep];
+}
+
+function canUseItemOn(item, id) {
+  const owner = state[id]?.owner;
+  if (item === "reinforce" || item === "shield") return owner === "player";
+  if (item === "floo") return owner === "player";
+  if (item === "petrify") return owner !== "player";
+  if (item === "disarm") return owner === "enemy";
+  return false;
+}
+
+function adjacentTo(id) {
+  const routes = new Set(ADJACENCY[id] || []);
+  if (activeEvent === "movingStairs" && (id === "GrandStaircase" || id === "Greenhouses" || id === "RoomOfRequirement")) {
+    if (id === "GrandStaircase") {
+      routes.add("Greenhouses");
+      routes.add("RoomOfRequirement");
+    } else {
+      routes.add("GrandStaircase");
+    }
+  }
+  return Array.from(routes);
+}
+
+function isRegionFrozen(id, now = performance.now()) {
+  return Boolean(state[id]?.freezeUntil && now < state[id].freezeUntil);
+}
+
+function isRegionDisarmed(id, now = performance.now()) {
+  return Boolean(state[id]?.disarmUntil && now < state[id].disarmUntil);
+}
+
+function eventGrowthMultiplier() {
+  return activeEvent === "dementors" ? 0.72 : 1;
+}
+
+function updateTimedEffects(now) {
+  if (activeEvent && now >= activeEventUntil) {
+    activeEvent = null;
+    setEventNote("随机事件结束");
+  }
+  if (now >= nextEventAt) triggerRandomEvent(now);
+}
+
+function triggerRandomEvent(now) {
+  const events = ["phoenix", "dementors", "movingStairs", "coinCache"];
+  const event = events[Math.floor(Math.random() * events.length)];
+  if (event === "phoenix") {
+    const target = weakestOwnedRegion("player");
+    if (target) {
+      state[target].troops += 18;
+      setEventNote(`凤凰福克斯出现：${REGION_META[target].name} +18`);
+    }
+  } else if (event === "dementors") {
+    activeEvent = "dementors";
+    activeEventUntil = now + 10000;
+    setEventNote("摄魂怪来袭：全场兵力增长暂时变慢");
+  } else if (event === "movingStairs") {
+    activeEvent = "movingStairs";
+    activeEventUntil = now + 12000;
+    setEventNote("活动楼梯移动：临时连通温室和有求必应屋");
+  } else if (event === "coinCache") {
+    coins += 20;
+    setEventNote("发现学院补给：金币 +20");
+  }
+  nextEventAt = now + EVENT_INTERVAL + Math.random() * 9000;
+}
+
+function weakestOwnedRegion(owner) {
+  return Object.entries(state)
+    .filter(([, region]) => region.owner === owner)
+    .sort((a, b) => a[1].troops - b[1].troops)[0]?.[0];
+}
+
+function setEventNote(text, duration = 5200) {
+  eventNote = text;
+  eventNoteUntil = performance.now() + duration;
   updateStrategyBar();
 }
 
 function updateStrategyBar(note = "") {
-  const mission = LEVELS[levelIndex]?.mission;
+  const chain = missionChain();
+  const mission = currentMission();
   if (coinCount) coinCount.textContent = Math.floor(coins);
-  if (missionText) missionText.textContent = mission?.text || "无";
+  if (missionText) missionText.textContent = mission ? `${missionStep + 1}/${chain.length} ${mission.text}` : "已完成";
   if (missionStatus) {
-    missionStatus.textContent = missionDone ? `完成 +${mission.reward}` : note || "未完成";
+    missionStatus.textContent = note || (mission ? `奖励 +${mission.reward}，占地 -${CAPTURE_COST}` : "任务链完成");
+  }
+  if (specialStatus) {
+    specialStatus.textContent = currentSpecialStatus();
+  }
+  if (eventStatus) {
+    eventStatus.textContent = currentEventStatus();
   }
   const itemButtons = [
     [itemReinforce, "reinforce", ITEM_COSTS.reinforce],
     [itemShield, "shield", ITEM_COSTS.shield],
     [itemFloo, "floo", ITEM_COSTS.floo],
+    [itemPetrify, "petrify", ITEM_COSTS.petrify],
+    [itemDisarm, "disarm", ITEM_COSTS.disarm],
   ];
   for (const [button, item, cost] of itemButtons) {
     if (!button) continue;
     button.disabled = ended || paused || coins < cost;
     button.classList.toggle("is-active", activeItem === item);
   }
+}
+
+function currentEventStatus() {
+  const now = performance.now();
+  if (eventNote && now < eventNoteUntil) return eventNote;
+  if (activeEvent === "dementors") return "摄魂怪影响中：增长变慢";
+  if (activeEvent === "movingStairs") return "楼梯移动中：出现临时路线";
+  return "随机事件待触发";
+}
+
+function currentSpecialStatus() {
+  const now = performance.now();
+  if (specialNote && now < specialNoteUntil) return specialNote;
+  if (enemyForecast && state.AstronomyTower?.owner === "player") {
+    return `天文塔预警：${REGION_META[enemyForecast.from].name} → ${REGION_META[enemyForecast.to].name}`;
+  }
+
+  const active = [];
+  if (state.ThreeBroomsticks?.owner === "player") active.push("三把扫帚产金币");
+  if (state.AstronomyTower?.owner === "player") active.push("天文塔待预警");
+  if (state.StoneDefenseLine?.owner === "player") active.push("石像防线防守中");
+  return active.join(" / ") || "抢特殊地块改变战局";
+}
+
+function setSpecialNote(text, duration = 3600) {
+  specialNote = text;
+  specialNoteUntil = performance.now() + duration;
 }
 
 function pauseGameFlow() {
@@ -625,6 +931,7 @@ function pauseGameFlow() {
   selected = null;
   activeItem = null;
   flooSource = null;
+  enemyForecast = null;
   drag = null;
   clearDragLine();
   window.removeEventListener("pointermove", onPointerMove);
@@ -638,8 +945,15 @@ function resumeGameFlow() {
   if (ended || !paused) return;
   const pausedFor = performance.now() - pauseStarted;
   for (const packet of packets) packet.start += pausedFor;
+  if (enemyForecast) enemyForecast.attackAt += pausedFor;
+  if (activeEventUntil > pauseStarted) activeEventUntil += pausedFor;
+  if (nextEventAt > pauseStarted) nextEventAt += pausedFor;
+  if (eventNoteUntil > pauseStarted) eventNoteUntil += pausedFor;
+  if (specialNoteUntil > pauseStarted) specialNoteUntil += pausedFor;
   for (const region of Object.values(state)) {
     if (region.shieldUntil && region.shieldUntil > pauseStarted) region.shieldUntil += pausedFor;
+    if (region.freezeUntil && region.freezeUntil > pauseStarted) region.freezeUntil += pausedFor;
+    if (region.disarmUntil && region.disarmUntil > pauseStarted) region.disarmUntil += pausedFor;
   }
   lastAi += pausedFor;
   paused = false;
@@ -671,6 +985,8 @@ startGame?.addEventListener("click", resumeGameFlow);
 itemReinforce?.addEventListener("click", () => setActiveItem("reinforce"));
 itemShield?.addEventListener("click", () => setActiveItem("shield"));
 itemFloo?.addEventListener("click", () => setActiveItem("floo"));
+itemPetrify?.addEventListener("click", () => setActiveItem("petrify"));
+itemDisarm?.addEventListener("click", () => setActiveItem("disarm"));
 
 loadMap().then(() => {
   startLevel(0);

@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>霍格沃茨领地战试玩</title>
-    <link rel="stylesheet" href="hogwarts-playtest.css?v=20260614b" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23102032'/%3E%3Cpath d='M15 50h34V28L32 14 15 28z' fill='%23e8dfcc'/%3E%3Cpath d='M24 50V34h16v16M28 24h8' stroke='%23102032' stroke-width='4'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="hogwarts-playtest.css?v=20260614e" />
   </head>
   <body>
     <main class="app">
@@ -31,10 +32,20 @@
           <strong id="missionText">加载中</strong>
           <em id="missionStatus"></em>
         </div>
+        <div class="special-pill">
+          <span>特殊地块</span>
+          <strong id="specialStatus">加载中</strong>
+        </div>
+        <div class="event-pill">
+          <span>事件</span>
+          <strong id="eventStatus">加载中</strong>
+        </div>
         <div class="item-bar">
-          <button id="itemReinforce" type="button">增援令 50</button>
-          <button id="itemShield" type="button">防护咒 45</button>
-          <button id="itemFloo" type="button">飞路粉 40</button>
+          <button id="itemReinforce" type="button">增援令 40</button>
+          <button id="itemShield" type="button">守护神咒 45</button>
+          <button id="itemFloo" type="button">飞路粉 35</button>
+          <button id="itemPetrify" type="button">统统石化 35</button>
+          <button id="itemDisarm" type="button">除你武器 30</button>
         </div>
       </section>
 
@@ -68,11 +79,11 @@
                   <g id="Centre_1"><circle id="Centre_QuidditchPitch" cx="196" cy="170" r="24" fill="white"/></g>
                 </g>
                 <g id="HOG_NorthLawn">
-                  <path id="HOG_NorthLawn_2" fill-rule="evenodd" clip-rule="evenodd" d="M310 90L560 90L550 240L330 240Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+                  <path id="HOG_NorthLawn_2" fill-rule="evenodd" clip-rule="evenodd" d="M310 90L560 90L550 180L550 240L330 240Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
                   <g id="Centre_2"><circle id="Centre_NorthLawn" cx="440" cy="166" r="24" fill="white"/></g>
                 </g>
                 <g id="HOG_HagridHut">
-                  <path id="HOG_HagridHut_2" fill-rule="evenodd" clip-rule="evenodd" d="M560 90L740 90L730 240L550 240Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+                  <path id="HOG_HagridHut_2" fill-rule="evenodd" clip-rule="evenodd" d="M560 90L740 90L730 240L640 240L640 180L550 180Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
                   <g id="Centre_3"><circle id="Centre_HagridHut" cx="646" cy="166" r="24" fill="white"/></g>
                 </g>
                 <g id="HOG_ForbiddenForest">
@@ -86,6 +97,10 @@
                 <g id="HOG_GryffindorTower">
                   <path id="HOG_GryffindorTower_2" fill-rule="evenodd" clip-rule="evenodd" d="M410 240L550 240L560 360L430 380L410 360Z" fill="#74BCFF" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
                   <g id="Centre_6"><circle id="Centre_GryffindorTower" cx="486" cy="306" r="24" fill="white"/></g>
+                </g>
+                <g id="HOG_AstronomyTower">
+                  <path id="HOG_AstronomyTower_2" fill-rule="evenodd" clip-rule="evenodd" d="M550 180L640 180L640 240L550 240Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+                  <g id="Centre_20"><circle id="Centre_AstronomyTower" cx="596" cy="214" r="22" fill="white"/></g>
                 </g>
                 <g id="HOG_HogwartsCastle">
                   <path id="HOG_HogwartsCastle_2" fill-rule="evenodd" clip-rule="evenodd" d="M550 240L640 240L650 330L640 430L560 360Z" fill="#74BCFF" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
@@ -114,6 +129,10 @@
                 <g id="HOG_GreatHall">
                   <path id="HOG_GreatHall_2" fill-rule="evenodd" clip-rule="evenodd" d="M390 520L570 520L520 640L380 660Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
                   <g id="Centre_12"><circle id="Centre_GreatHall" cx="470" cy="588" r="25" fill="white"/></g>
+                </g>
+                <g id="HOG_StoneDefenseLine">
+                  <path id="HOG_StoneDefenseLine_2" fill-rule="evenodd" clip-rule="evenodd" d="M380 660L520 640L560 710L330 710Z" fill="#A2A2A2" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
+                  <g id="Centre_21"><circle id="Centre_StoneDefenseLine" cx="446" cy="682" r="22" fill="white"/></g>
                 </g>
                 <g id="HOG_Dungeon">
                   <path id="HOG_Dungeon_2" fill-rule="evenodd" clip-rule="evenodd" d="M260 660L380 660L330 710L220 710Z" fill="#FF634D" stroke="#E8DFCC" stroke-width="4" stroke-linejoin="round"/>
@@ -155,6 +174,7 @@
                 <circle cx="872" cy="356" r="34" fill="white" opacity="0.96"/>
                 <circle cx="236" cy="454" r="34" fill="white" opacity="0.96"/>
                 <circle cx="486" cy="306" r="32" fill="white" opacity="0.96"/>
+                <circle cx="596" cy="214" r="30" fill="white" opacity="0.96"/>
                 <circle cx="602" cy="330" r="36" fill="white" opacity="0.96"/>
                 <circle cx="704" cy="312" r="32" fill="white" opacity="0.96"/>
                 <circle cx="756" cy="424" r="32" fill="white" opacity="0.96"/>
@@ -162,6 +182,7 @@
                 <circle cx="752" cy="532" r="32" fill="white" opacity="0.96"/>
                 <circle cx="612" cy="588" r="30" fill="white" opacity="0.96"/>
                 <circle cx="470" cy="588" r="34" fill="white" opacity="0.96"/>
+                <circle cx="446" cy="682" r="30" fill="white" opacity="0.96"/>
                 <circle cx="300" cy="684" r="30" fill="white" opacity="0.96"/>
           
                 <text x="137" y="49" fill="#111318" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">蜂蜜</text>
@@ -181,6 +202,8 @@
                 <text x="872" y="364" fill="#111318" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">禁林</text>
                 <text x="236" y="462" fill="#111318" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">黑湖</text>
                 <text x="486" y="314" fill="#111318" font-family="Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">格兰芬多塔</text>
+                <text x="596" y="207" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">天文</text>
+                <text x="596" y="228" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">塔</text>
                 <text x="602" y="322" fill="#111318" font-family="Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">霍格沃茨</text>
                 <text x="602" y="346" fill="#111318" font-family="Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">城堡</text>
                 <text x="704" y="304" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">有求</text>
@@ -191,6 +214,8 @@
                 <text x="752" y="540" fill="#111318" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">温室</text>
                 <text x="612" y="596" fill="#111318" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">船屋</text>
                 <text x="470" y="596" fill="#111318" font-family="Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle">礼堂</text>
+                <text x="446" y="675" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">石像</text>
+                <text x="446" y="696" fill="#111318" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">防线</text>
                 <text x="300" y="692" fill="#111318" font-family="Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">地牢</text>
               </g>
             </g>
@@ -210,9 +235,9 @@
           <span><i class="dot enemy"></i>敌方</span>
           <span><i class="dot neutral"></i>中立</span>
         </div>
-        <p>操作：按住蓝色地块，拖到相邻目标后松手派兵。占领全部红色地块即可过关。</p>
+        <p>操作：拖拽蓝色地块派兵；每次抢非己方地块消耗 15 金币。法术牌仅玩家可用，敌军不会施咒。</p>
       </section>
     </main>
-    <script src="hogwarts-playtest.js?v=20260614c"></script>
+    <script src="hogwarts-playtest.js?v=20260614e"></script>
   </body>
 </html>
